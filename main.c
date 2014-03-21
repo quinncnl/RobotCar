@@ -15,32 +15,33 @@ struct map {
 // 0: nothing
 // 2: turn around
 
-int arrDisToBank[10] = {100, 100, 100, 100};
-int arrTurnToBank[10] = {0, 2, 1, -1};
 
-int arrDisToRiver[10] = {100, 100, 100, 100, 40, 30, 50, 20};
-int arrTurnToRiver[10] = {0, 2, 1, -1, 2, 1, -1, 2};
-
-int arrDisToTest[10] = {100, 100, 100, 500};
-int arrTurnToTest[10] = {0, 2, -1, 1};
 
 struct map path;
 
+int arrDisToBank[10] = {100, 100, 100, 100};
+int arrTurnToBank[10] = {0, 2, 1, -1};
 void setPathToBank(){
 	path.posDis = 3;
 	path.posTurn = 3;
 	path.arrDis = arrDisToBank;
 	path.arrTurn = arrTurnToBank;
 }
+
+int arrDisToRiver[10] = {100, 100, 100, 100, 40, 30, 50, 20};
+int arrTurnToRiver[10] = {0, 2, 1, -1, 2, 1, -1, 2};
 void setPathToRiver(){
 	path.posDis = 7;
 	path.posTurn = 7;
 	path.arrDis = arrDisToRiver;
 	path.arrTurn = arrTurnToRiver;
 }
+
+int arrDisToTest[10] = {40, 50, 40};
+int arrTurnToTest[10] = {2, 1, 1};
 void setPathToTest(){
-	path.posDis = 3;
-	path.posTurn = 3;
+	path.posDis = 2;
+	path.posTurn = 2;
 	path.arrDis = arrDisToTest;
 	path.arrTurn = arrTurnToTest;
 }
@@ -55,7 +56,8 @@ void startLeftWheel(){ TA1CCR1 = 850; }
 void stopLeftWheel(){ TA1CCR1 = 0; }
 void startRightWheel(){ TA1CCR2 = 800; }
 void stopRightWheel(){ TA1CCR2 = 0; }
-
+void slowLeftWheel(){ TA1CCR1 = 550; }
+void slowRightWheel(){ TA1CCR2 = 520; }
 
 void turnLeft(){
 	backwardLeftWheel();
@@ -101,12 +103,6 @@ void goStaightIterate(){
 		stopRightWheel();
 		onStraigt = 0;
 
-		if (path.posDis < 0) {
-			stopLeftWheel();
-			stopRightWheel();
-			exit(0);
-		}
-
 		switch (path.arrTurn[path.posTurn]) {
 		case 1:
 			turnLeft();
@@ -118,6 +114,13 @@ void goStaightIterate(){
 			turnAround();
 			break;
 		}
+
+		if (path.posDis < 0) {
+			stopLeftWheel();
+			stopRightWheel();
+			exit(0);
+		}
+
 		path.posTurn--;
 		goStaight(path.arrDis[path.posDis]);
  
@@ -139,10 +142,10 @@ void initDistanceSensor(){
 	__enable_interrupt();
 
 	P2DIR &=~ (BIT0 + BIT3); // input
-	P2IE |= (BIT0 + BIT3);
+	P2IE |= (BIT0);
   
-	P2IES |= (BIT0 + BIT3);
-	P2IFG &=~ (BIT0 + BIT3);
+	P2IES |= (BIT0);
+	P2IFG &=~ (BIT0);
 }
 
 
@@ -150,12 +153,12 @@ void initDistanceSensor(){
 __interrupt void Port_2(void)
 {
 	route();
-	P1OUT ^= BIT6;
-	P2IFG &=~ (BIT0 + BIT3);
+//	P1OUT ^= BIT6;
+	P2IFG &=~ (BIT0);
 }
 
 void initTA(){
-	TA1CTL = TASSEL_2 + MC_1 + ID_2 ; // SMCLK/8, upmode
+	TA1CTL = TASSEL_2 + MC_1;
 	TA1CCR0 = 1000;
 	TA1CCTL1 = OUTMOD_7;
 	TA1CCTL2 = OUTMOD_7;
@@ -168,9 +171,14 @@ int front_sensor = 0;
 int left_line_sensor = 0;
 int right_line_sensor = 0;
 
+void onLED0(){ P1OUT |= BIT0; }
+void offLED0(){	P1OUT &=~ BIT0; }
+void onLED6(){ P1OUT |= BIT6; }
+void offLED6(){	P1OUT &=~ BIT6; }
+
 void main(void)
 {
-            WDTCTL = WDTPW + WDTHOLD;
+	WDTCTL = WDTPW + WDTHOLD;
  
   
 	initTA();
@@ -183,8 +191,9 @@ void main(void)
 
 	P1DIR |= BIT6;
 
+	wait();
 	/*
-	  wait();
+	  
 	  turnLeft();
 	  wait();
 	  forwardRightWheel();
@@ -192,6 +201,7 @@ void main(void)
 	  goStaight(100);
 	*/
 	routeToBank();
+
 	while(1){
 
 		front_sensor = read_adc(4);
@@ -201,7 +211,6 @@ void main(void)
 			// stop
 			stopRightWheel();
 			stopLeftWheel();
-			P1OUT |= BIT0;
 		}
 		else{
 			// run
@@ -209,23 +218,25 @@ void main(void)
 			forwardRightWheel();
 			startLeftWheel();
 			startRightWheel();
-			P1OUT &=~ BIT0;
 		}
 
-		/*
-		  if (left_line_sensor > 700) {
-		  stopLeftWheel();
-		  }
-		  else {
-		  startLeftWheel();
-		  }
+		if (left_line_sensor > 700) {
+			// not touching line
+			startLeftWheel();
+			onLED0();
+		}
+		else {
+			slowLeftWheel();
+			offLED0();
+		}
 
-		  if (right_line_sensor > 700) {
-		  stopRightWheel();
-		  }
-		  else {
-		  startRightWheel();
-		  }
-		*/
+		if (right_line_sensor > 700) {
+			startRightWheel();
+			onLED6();
+		}
+		else {
+			slowRightWheel();
+			offLED6();
+		}
 	}
 }

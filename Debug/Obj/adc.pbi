@@ -323,8 +323,8 @@
 <L><invalid loc>:327:9: macro definition=_DLIB_CONFIG_FILE_HEADER_NAME <US>c:macro@_DLIB_CONFIG_FILE_HEADER_NAME<UE> <DS>_DLIB_CONFIG_FILE_HEADER_NAME<DE> Extent=<ES>327:9 - 327:125<EE>
 <L><invalid loc>:328:9: macro definition=_DLIB_CONFIG_FILE_STRING <US>c:macro@_DLIB_CONFIG_FILE_STRING<UE> <DS>_DLIB_CONFIG_FILE_STRING<DE> Extent=<ES>328:9 - 328:127<EE>
 <L><invalid loc>:329:9: macro definition=__VERSION__ <US>c:macro@__VERSION__<UE> <DS>__VERSION__<DE> Extent=<ES>329:9 - 329:93<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:1:1: inclusion directive=adc.h <US><UE> <DS><DE> <IS>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.h<IE>  Extent=<ES>1:1 - 1:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.h:1:1: inclusion directive=msp430g2553.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h<IE>  [multi-include guarded] Extent=<ES>1:1 - 1:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:1:1: inclusion directive=adc.h <US><UE> <DS><DE> <IS>Z:\msee\iar\MSP\robotcar\adc.h<IE>  Extent=<ES>1:1 - 1:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.h:1:1: inclusion directive=msp430g2553.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h<IE>  [multi-include guarded] Extent=<ES>1:1 - 1:12<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:16:9: macro definition=__MSP430G2553 <US>c:macro@__MSP430G2553<UE> <DS>__MSP430G2553<DE> Extent=<ES>16:9 - 16:22<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:18:9: macro definition=__MSP430_HEADER_VERSION__ <US>c:macro@__MSP430_HEADER_VERSION__<UE> <DS>__MSP430_HEADER_VERSION__<DE> Extent=<ES>18:9 - 18:39<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:26:8: macro expansion=__TID__|<invalid loc>:238:9 <US>c:macro@__TID__<UE> <DS>__TID__<DE> Extent=<ES>26:8 - 26:15<EE>
@@ -1219,33 +1219,33 @@
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:975:9: macro definition=TIMER1_A0_VECTOR <US>c:macro@TIMER1_A0_VECTOR<UE> <DS>TIMER1_A0_VECTOR<DE> Extent=<ES>975:9 - 975:38<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:976:9: macro definition=NMI_VECTOR <US>c:macro@NMI_VECTOR<UE> <DS>NMI_VECTOR<DE> Extent=<ES>976:9 - 976:38<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:977:9: macro definition=RESET_VECTOR <US>c:macro@RESET_VECTOR<UE> <DS>RESET_VECTOR<DE> Extent=<ES>977:9 - 977:38<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:30: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>11:30 - 11:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:45: macro expansion=INCH_0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:254:9 <US>c:macro@INCH_0<UE> <DS>INCH_0<DE> Extent=<ES>11:45 - 11:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:30: macro expansion=BIT1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:60:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>12:30 - 12:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:45: macro expansion=INCH_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:255:9 <US>c:macro@INCH_1<UE> <DS>INCH_1<DE> Extent=<ES>12:45 - 12:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:30: macro expansion=BIT2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:61:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>13:30 - 13:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:45: macro expansion=INCH_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:256:9 <US>c:macro@INCH_2<UE> <DS>INCH_2<DE> Extent=<ES>13:45 - 13:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:30: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>14:30 - 14:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:45: macro expansion=INCH_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:257:9 <US>c:macro@INCH_3<UE> <DS>INCH_3<DE> Extent=<ES>14:45 - 14:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:30: macro expansion=BIT4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:63:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>15:30 - 15:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:45: macro expansion=INCH_4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:258:9 <US>c:macro@INCH_4<UE> <DS>INCH_4<DE> Extent=<ES>15:45 - 15:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:30: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>16:30 - 16:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:45: macro expansion=INCH_5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:259:9 <US>c:macro@INCH_5<UE> <DS>INCH_5<DE> Extent=<ES>16:45 - 16:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:30: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:65:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>17:30 - 17:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:45: macro expansion=INCH_6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:260:9 <US>c:macro@INCH_6<UE> <DS>INCH_6<DE> Extent=<ES>17:45 - 17:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:30: macro expansion=BIT7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:66:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>18:30 - 18:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:45: macro expansion=INCH_7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:261:9 <US>c:macro@INCH_7<UE> <DS>INCH_7<DE> Extent=<ES>18:45 - 18:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:22:24: macro expansion=ADC10DIV_0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:240:9 <US>c:macro@ADC10DIV_0<UE> <DS>ADC10DIV_0<DE> Extent=<ES>22:24 - 22:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:23:15: macro expansion=SREF_0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:203:9 <US>c:macro@SREF_0<UE> <DS>SREF_0<DE> Extent=<ES>23:15 - 23:21<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:23:24: macro expansion=ADC10SHT_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:200:9 <US>c:macro@ADC10SHT_2<UE> <DS>ADC10SHT_2<DE> Extent=<ES>23:24 - 23:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:23:37: macro expansion=REFON|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:187:9 <US>c:macro@REFON<UE> <DS>REFON<DE> Extent=<ES>23:37 - 23:42<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:23:45: macro expansion=ADC10ON|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:186:9 <US>c:macro@ADC10ON<UE> <DS>ADC10ON<DE> Extent=<ES>23:45 - 23:52<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:35:15: macro expansion=ENC|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:183:9 <US>c:macro@ENC<UE> <DS>ENC<DE> Extent=<ES>35:15 - 35:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:35:21: macro expansion=ADC10SC|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:182:9 <US>c:macro@ADC10SC<UE> <DS>ADC10SC<DE> Extent=<ES>35:21 - 35:28<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:36:23: macro expansion=ADC10IFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:184:9 <US>c:macro@ADC10IFG<UE> <DS>ADC10IFG<DE> Extent=<ES>36:23 - 36:31<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:36:49: macro expansion=ADC10BUSY|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:213:9 <US>c:macro@ADC10BUSY<UE> <DS>ADC10BUSY<DE> Extent=<ES>36:49 - 36:58<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:37:18: macro expansion=ENC|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:183:9 <US>c:macro@ENC<UE> <DS>ENC<DE> Extent=<ES>37:18 - 37:21<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:37:24: macro expansion=ADC10IFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:184:9 <US>c:macro@ADC10IFG<UE> <DS>ADC10IFG<DE> Extent=<ES>37:24 - 37:32<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:30: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>11:30 - 11:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:45: macro expansion=INCH_0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:254:9 <US>c:macro@INCH_0<UE> <DS>INCH_0<DE> Extent=<ES>11:45 - 11:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:30: macro expansion=BIT1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:60:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>12:30 - 12:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:45: macro expansion=INCH_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:255:9 <US>c:macro@INCH_1<UE> <DS>INCH_1<DE> Extent=<ES>12:45 - 12:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:30: macro expansion=BIT2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:61:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>13:30 - 13:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:45: macro expansion=INCH_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:256:9 <US>c:macro@INCH_2<UE> <DS>INCH_2<DE> Extent=<ES>13:45 - 13:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:30: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>14:30 - 14:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:45: macro expansion=INCH_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:257:9 <US>c:macro@INCH_3<UE> <DS>INCH_3<DE> Extent=<ES>14:45 - 14:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:30: macro expansion=BIT4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:63:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>15:30 - 15:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:45: macro expansion=INCH_4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:258:9 <US>c:macro@INCH_4<UE> <DS>INCH_4<DE> Extent=<ES>15:45 - 15:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:30: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>16:30 - 16:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:45: macro expansion=INCH_5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:259:9 <US>c:macro@INCH_5<UE> <DS>INCH_5<DE> Extent=<ES>16:45 - 16:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:30: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:65:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>17:30 - 17:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:45: macro expansion=INCH_6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:260:9 <US>c:macro@INCH_6<UE> <DS>INCH_6<DE> Extent=<ES>17:45 - 17:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:30: macro expansion=BIT7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:66:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>18:30 - 18:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:45: macro expansion=INCH_7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:261:9 <US>c:macro@INCH_7<UE> <DS>INCH_7<DE> Extent=<ES>18:45 - 18:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:22:24: macro expansion=ADC10DIV_0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:240:9 <US>c:macro@ADC10DIV_0<UE> <DS>ADC10DIV_0<DE> Extent=<ES>22:24 - 22:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:23:15: macro expansion=SREF_0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:203:9 <US>c:macro@SREF_0<UE> <DS>SREF_0<DE> Extent=<ES>23:15 - 23:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:23:24: macro expansion=ADC10SHT_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:200:9 <US>c:macro@ADC10SHT_2<UE> <DS>ADC10SHT_2<DE> Extent=<ES>23:24 - 23:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:23:37: macro expansion=REFON|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:187:9 <US>c:macro@REFON<UE> <DS>REFON<DE> Extent=<ES>23:37 - 23:42<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:23:45: macro expansion=ADC10ON|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:186:9 <US>c:macro@ADC10ON<UE> <DS>ADC10ON<DE> Extent=<ES>23:45 - 23:52<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:35:15: macro expansion=ENC|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:183:9 <US>c:macro@ENC<UE> <DS>ENC<DE> Extent=<ES>35:15 - 35:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:35:21: macro expansion=ADC10SC|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:182:9 <US>c:macro@ADC10SC<UE> <DS>ADC10SC<DE> Extent=<ES>35:21 - 35:28<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:36:23: macro expansion=ADC10IFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:184:9 <US>c:macro@ADC10IFG<UE> <DS>ADC10IFG<DE> Extent=<ES>36:23 - 36:31<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:36:49: macro expansion=ADC10BUSY|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:213:9 <US>c:macro@ADC10BUSY<UE> <DS>ADC10BUSY<DE> Extent=<ES>36:49 - 36:58<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:37:18: macro expansion=ENC|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:183:9 <US>c:macro@ENC<UE> <DS>ENC<DE> Extent=<ES>37:18 - 37:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:37:24: macro expansion=ADC10IFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:184:9 <US>c:macro@ADC10IFG<UE> <DS>ADC10IFG<DE> Extent=<ES>37:24 - 37:32<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -1327,169 +1327,169 @@
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\in430.h:67:56: ParmDecl=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\in430.h:67:56 (Definition) <US><UE> <DS>unsigned short<DE> Extent=<ES>67:42 - 67:57<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\in430.h:71:30: FunctionDecl=_BIS_NMI_IE1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\in430.h:71:30 (Declaration) <US>c:@F@_BIS_NMI_IE1<UE> <DS>unsigned short _BIS_NMI_IE1(unsigned short)<DE> Extent=<ES>71:15 - 71:58<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\in430.h:71:57: ParmDecl=|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\in430.h:71:57 (Definition) <US><UE> <DS>unsigned short<DE> Extent=<ES>71:43 - 71:58<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.h:8:6: FunctionDecl=init_adc|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:6 (Declaration) <US>c:@F@init_adc<UE> <DS>void init_adc(unsigned int)<DE> Extent=<ES>8:1 - 8:31<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.h:8:30: ParmDecl=|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.h:8:30 (Definition) <US><UE> <DS>unsigned int<DE> Extent=<ES>8:16 - 8:31<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.h:9:14: FunctionDecl=read_adc|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:32:14 (Declaration) <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>9:1 - 9:37<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.h:9:36: ParmDecl=|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.h:9:36 (Definition) <US><UE> <DS>unsigned int<DE> Extent=<ES>9:24 - 9:37<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:6: FunctionDecl=init_adc|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:6 (Definition) <US>c:@F@init_adc<UE> <DS>void init_adc(unsigned int)<DE> Extent=<ES>8:1 - 24:2<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29: ParmDecl=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 (Definition) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>8:16 - 8:36<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:9:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>9:1 - 24:2<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>10:3 - 10:38<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:16: VarDecl=BIT_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:16 (Definition) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>10:3 - 10:25<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>10:24 - 10:25<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>10:24 - 10:25<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:27: VarDecl=INCH_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:27 (Declaration) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>10:27 - 10:37<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>10:36 - 10:37<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>10:36 - 10:37<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>11:3 - 11:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>11:6 - 11:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:6: UnexposedExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>11:6 - 11:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:6: DeclRefExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>11:6 - 11:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>11:17 - 11:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:17 - 11:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>11:21 - 11:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>11:22 - 11:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:22: DeclRefExpr=BIT_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>11:22 - 11:27<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>11:30 - 11:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:30 - 11:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>11:36 - 11:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:36: DeclRefExpr=INCH_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>11:36 - 11:42<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>11:45 - 11:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>11:45 - 11:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>11:45 - 11:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:45 - 11:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:11:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:45 - 11:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>12:3 - 12:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>12:6 - 12:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:6: UnexposedExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>12:6 - 12:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:6: DeclRefExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>12:6 - 12:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>12:17 - 12:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:17 - 12:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>12:21 - 12:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>12:22 - 12:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:22: DeclRefExpr=BIT_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>12:22 - 12:27<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>12:30 - 12:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:30 - 12:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>12:36 - 12:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:36: DeclRefExpr=INCH_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>12:36 - 12:42<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>12:45 - 12:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>12:45 - 12:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>12:45 - 12:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:45 - 12:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:12:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:45 - 12:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>13:3 - 13:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>13:6 - 13:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:6: UnexposedExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>13:6 - 13:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:6: DeclRefExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>13:6 - 13:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>13:17 - 13:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>13:17 - 13:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>13:21 - 13:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>13:22 - 13:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:22: DeclRefExpr=BIT_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>13:22 - 13:27<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>13:30 - 13:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>13:30 - 13:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>13:36 - 13:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:36: DeclRefExpr=INCH_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>13:36 - 13:42<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>13:45 - 13:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>13:45 - 13:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>13:45 - 13:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>13:45 - 13:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:13:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>13:45 - 13:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>14:3 - 14:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>14:6 - 14:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:6: UnexposedExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>14:6 - 14:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:6: DeclRefExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>14:6 - 14:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>14:17 - 14:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>14:17 - 14:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>14:21 - 14:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>14:22 - 14:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:22: DeclRefExpr=BIT_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>14:22 - 14:27<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>14:30 - 14:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>14:30 - 14:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>14:36 - 14:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:36: DeclRefExpr=INCH_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>14:36 - 14:42<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>14:45 - 14:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>14:45 - 14:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>14:45 - 14:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>14:45 - 14:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:14:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>14:45 - 14:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>15:3 - 15:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>15:6 - 15:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:6: UnexposedExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>15:6 - 15:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:6: DeclRefExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>15:6 - 15:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>15:17 - 15:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:17 - 15:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>15:21 - 15:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>15:22 - 15:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:22: DeclRefExpr=BIT_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>15:22 - 15:27<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>15:30 - 15:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:30 - 15:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>15:36 - 15:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:36: DeclRefExpr=INCH_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>15:36 - 15:42<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>15:45 - 15:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>15:45 - 15:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>15:45 - 15:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:45 - 15:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:15:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:45 - 15:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>16:3 - 16:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>16:6 - 16:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:6: UnexposedExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>16:6 - 16:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:6: DeclRefExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>16:6 - 16:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>16:17 - 16:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:17 - 16:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>16:21 - 16:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>16:22 - 16:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:22: DeclRefExpr=BIT_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>16:22 - 16:27<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>16:30 - 16:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:30 - 16:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>16:36 - 16:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:36: DeclRefExpr=INCH_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>16:36 - 16:42<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>16:45 - 16:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>16:45 - 16:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>16:45 - 16:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:45 - 16:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:16:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:45 - 16:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>17:3 - 17:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>17:6 - 17:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:6: UnexposedExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>17:6 - 17:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:6: DeclRefExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>17:6 - 17:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>17:17 - 17:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:17 - 17:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>17:21 - 17:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>17:22 - 17:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:22: DeclRefExpr=BIT_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>17:22 - 17:27<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>17:30 - 17:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:30 - 17:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>17:36 - 17:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:36: DeclRefExpr=INCH_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>17:36 - 17:42<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>17:45 - 17:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>17:45 - 17:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>17:45 - 17:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:45 - 17:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:17:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:45 - 17:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>18:3 - 18:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>18:6 - 18:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:6: UnexposedExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>18:6 - 18:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:6: DeclRefExpr=channel|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>18:6 - 18:13<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>18:17 - 18:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>18:17 - 18:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>18:21 - 18:53<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>18:22 - 18:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:22: DeclRefExpr=BIT_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>18:22 - 18:27<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>18:30 - 18:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>18:30 - 18:34<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>18:36 - 18:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:36: DeclRefExpr=INCH_X|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>18:36 - 18:42<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>18:45 - 18:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>18:45 - 18:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>18:45 - 18:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>18:45 - 18:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:18:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>18:45 - 18:51<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:32:14: FunctionDecl=read_adc|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:32:14 (Definition) <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>32:1 - 39:2<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:32:37: ParmDecl=sensor|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:32:37 (Definition) <US>c:adc.c@1673@F@read_adc@sensor<UE> <DS>unsigned int<DE> Extent=<ES>32:24 - 32:43<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:33:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>33:1 - 39:2<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:34:2: CallExpr=init_adc|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:6 <US>c:@F@init_adc<UE> <DS>void init_adc(unsigned int)<DE> Extent=<ES>34:2 - 34:20<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:34:2: UnexposedExpr=init_adc|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:6 <US>c:@F@init_adc<UE> <DS>void init_adc(unsigned int)<DE> Extent=<ES>34:2 - 34:10<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:34:2: DeclRefExpr=init_adc|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:8:6 (Reference) <US>c:@F@init_adc<UE> <DS>void init_adc(unsigned int)<DE> Extent=<ES>34:2 - 34:10<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:34:12: UnexposedExpr=sensor|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:32:37 <US>c:adc.c@1673@F@read_adc@sensor<UE> <DS>unsigned int<DE> Extent=<ES>34:12 - 34:18<EE>
-<L>\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:34:12: DeclRefExpr=sensor|\\vmware-host\Shared Folders\msee\iar\MSP\2\adc.c:32:37 (Reference) <US>c:adc.c@1673@F@read_adc@sensor<UE> <DS>unsigned int<DE> Extent=<ES>34:12 - 34:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.h:8:6: FunctionDecl=init_adc|Z:\msee\iar\MSP\robotcar\adc.c:8:6 (Declaration) <US>c:@F@init_adc<UE> <DS>void init_adc(unsigned int)<DE> Extent=<ES>8:1 - 8:31<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.h:8:30: ParmDecl=|Z:\msee\iar\MSP\robotcar\adc.h:8:30 (Definition) <US><UE> <DS>unsigned int<DE> Extent=<ES>8:16 - 8:31<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.h:9:14: FunctionDecl=read_adc|Z:\msee\iar\MSP\robotcar\adc.c:32:14 (Declaration) <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>9:1 - 9:37<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.h:9:36: ParmDecl=|Z:\msee\iar\MSP\robotcar\adc.h:9:36 (Definition) <US><UE> <DS>unsigned int<DE> Extent=<ES>9:24 - 9:37<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:8:6: FunctionDecl=init_adc|Z:\msee\iar\MSP\robotcar\adc.c:8:6 (Definition) <US>c:@F@init_adc<UE> <DS>void init_adc(unsigned int)<DE> Extent=<ES>8:1 - 24:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:8:29: ParmDecl=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 (Definition) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>8:16 - 8:36<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:9:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>9:1 - 24:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:10:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>10:3 - 10:38<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:10:16: VarDecl=BIT_X|Z:\msee\iar\MSP\robotcar\adc.c:10:16 (Definition) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>10:3 - 10:25<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:10:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>10:24 - 10:25<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:10:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>10:24 - 10:25<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:10:27: VarDecl=INCH_X|Z:\msee\iar\MSP\robotcar\adc.c:10:27 (Declaration) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>10:27 - 10:37<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:10:36: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>10:36 - 10:37<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:10:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>10:36 - 10:37<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>11:3 - 11:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>11:6 - 11:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:6: UnexposedExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>11:6 - 11:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:6: DeclRefExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>11:6 - 11:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>11:17 - 11:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:17 - 11:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>11:21 - 11:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>11:22 - 11:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:22: DeclRefExpr=BIT_X|Z:\msee\iar\MSP\robotcar\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>11:22 - 11:27<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>11:30 - 11:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:30 - 11:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>11:36 - 11:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:36: DeclRefExpr=INCH_X|Z:\msee\iar\MSP\robotcar\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>11:36 - 11:42<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>11:45 - 11:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>11:45 - 11:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>11:45 - 11:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:45 - 11:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:11:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>11:45 - 11:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>12:3 - 12:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>12:6 - 12:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:6: UnexposedExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>12:6 - 12:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:6: DeclRefExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>12:6 - 12:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>12:17 - 12:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:17 - 12:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>12:21 - 12:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>12:22 - 12:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:22: DeclRefExpr=BIT_X|Z:\msee\iar\MSP\robotcar\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>12:22 - 12:27<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>12:30 - 12:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:30 - 12:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>12:36 - 12:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:36: DeclRefExpr=INCH_X|Z:\msee\iar\MSP\robotcar\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>12:36 - 12:42<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>12:45 - 12:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>12:45 - 12:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>12:45 - 12:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:45 - 12:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:12:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>12:45 - 12:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>13:3 - 13:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>13:6 - 13:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:6: UnexposedExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>13:6 - 13:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:6: DeclRefExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>13:6 - 13:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>13:17 - 13:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>13:17 - 13:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>13:21 - 13:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>13:22 - 13:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:22: DeclRefExpr=BIT_X|Z:\msee\iar\MSP\robotcar\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>13:22 - 13:27<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>13:30 - 13:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>13:30 - 13:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>13:36 - 13:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:36: DeclRefExpr=INCH_X|Z:\msee\iar\MSP\robotcar\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>13:36 - 13:42<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>13:45 - 13:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>13:45 - 13:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>13:45 - 13:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>13:45 - 13:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:13:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>13:45 - 13:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>14:3 - 14:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>14:6 - 14:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:6: UnexposedExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>14:6 - 14:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:6: DeclRefExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>14:6 - 14:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>14:17 - 14:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>14:17 - 14:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>14:21 - 14:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>14:22 - 14:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:22: DeclRefExpr=BIT_X|Z:\msee\iar\MSP\robotcar\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>14:22 - 14:27<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>14:30 - 14:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>14:30 - 14:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>14:36 - 14:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:36: DeclRefExpr=INCH_X|Z:\msee\iar\MSP\robotcar\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>14:36 - 14:42<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>14:45 - 14:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>14:45 - 14:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>14:45 - 14:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>14:45 - 14:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:14:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>14:45 - 14:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>15:3 - 15:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>15:6 - 15:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:6: UnexposedExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>15:6 - 15:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:6: DeclRefExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>15:6 - 15:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>15:17 - 15:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:17 - 15:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>15:21 - 15:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>15:22 - 15:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:22: DeclRefExpr=BIT_X|Z:\msee\iar\MSP\robotcar\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>15:22 - 15:27<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>15:30 - 15:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:30 - 15:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>15:36 - 15:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:36: DeclRefExpr=INCH_X|Z:\msee\iar\MSP\robotcar\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>15:36 - 15:42<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>15:45 - 15:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>15:45 - 15:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>15:45 - 15:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:45 - 15:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:15:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>15:45 - 15:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>16:3 - 16:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>16:6 - 16:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:6: UnexposedExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>16:6 - 16:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:6: DeclRefExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>16:6 - 16:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>16:17 - 16:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:17 - 16:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>16:21 - 16:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>16:22 - 16:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:22: DeclRefExpr=BIT_X|Z:\msee\iar\MSP\robotcar\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>16:22 - 16:27<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>16:30 - 16:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:30 - 16:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>16:36 - 16:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:36: DeclRefExpr=INCH_X|Z:\msee\iar\MSP\robotcar\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>16:36 - 16:42<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>16:45 - 16:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>16:45 - 16:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>16:45 - 16:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:45 - 16:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:16:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>16:45 - 16:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>17:3 - 17:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>17:6 - 17:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:6: UnexposedExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>17:6 - 17:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:6: DeclRefExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>17:6 - 17:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>17:17 - 17:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:17 - 17:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>17:21 - 17:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>17:22 - 17:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:22: DeclRefExpr=BIT_X|Z:\msee\iar\MSP\robotcar\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>17:22 - 17:27<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>17:30 - 17:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:30 - 17:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>17:36 - 17:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:36: DeclRefExpr=INCH_X|Z:\msee\iar\MSP\robotcar\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>17:36 - 17:42<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>17:45 - 17:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>17:45 - 17:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>17:45 - 17:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:45 - 17:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:17:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:45 - 17:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>18:3 - 18:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>18:6 - 18:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:6: UnexposedExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>18:6 - 18:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:6: DeclRefExpr=channel|Z:\msee\iar\MSP\robotcar\adc.c:8:29 (Reference) <US>c:adc.c@436@F@init_adc@channel<UE> <DS>unsigned int<DE> Extent=<ES>18:6 - 18:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>18:17 - 18:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>18:17 - 18:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>18:21 - 18:53<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:22: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>18:22 - 18:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:22: DeclRefExpr=BIT_X|Z:\msee\iar\MSP\robotcar\adc.c:10:16 (Reference) <US>c:adc.c@465@F@init_adc@BIT_X<UE> <DS>BIT_X<DE> Extent=<ES>18:22 - 18:27<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:30: ParenExpr= <US><UE> <DS><DE> Extent=<ES>18:30 - 18:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>18:30 - 18:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:36: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>18:36 - 18:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:36: DeclRefExpr=INCH_X|Z:\msee\iar\MSP\robotcar\adc.c:10:27 (Reference) <US>c:adc.c@465@F@init_adc@INCH_X<UE> <DS>INCH_X<DE> Extent=<ES>18:36 - 18:42<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:45: ParenExpr= <US><UE> <DS><DE> Extent=<ES>18:45 - 18:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:45: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>18:45 - 18:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:45: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>18:45 - 18:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>18:45 - 18:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:18:45: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>18:45 - 18:51<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:32:14: FunctionDecl=read_adc|Z:\msee\iar\MSP\robotcar\adc.c:32:14 (Definition) <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>32:1 - 39:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:32:37: ParmDecl=sensor|Z:\msee\iar\MSP\robotcar\adc.c:32:37 (Definition) <US>c:adc.c@1673@F@read_adc@sensor<UE> <DS>unsigned int<DE> Extent=<ES>32:24 - 32:43<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:33:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>33:1 - 39:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:34:2: CallExpr=init_adc|Z:\msee\iar\MSP\robotcar\adc.c:8:6 <US>c:@F@init_adc<UE> <DS>void init_adc(unsigned int)<DE> Extent=<ES>34:2 - 34:20<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:34:2: UnexposedExpr=init_adc|Z:\msee\iar\MSP\robotcar\adc.c:8:6 <US>c:@F@init_adc<UE> <DS>void init_adc(unsigned int)<DE> Extent=<ES>34:2 - 34:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:34:2: DeclRefExpr=init_adc|Z:\msee\iar\MSP\robotcar\adc.c:8:6 (Reference) <US>c:@F@init_adc<UE> <DS>void init_adc(unsigned int)<DE> Extent=<ES>34:2 - 34:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:34:12: UnexposedExpr=sensor|Z:\msee\iar\MSP\robotcar\adc.c:32:37 <US>c:adc.c@1673@F@read_adc@sensor<UE> <DS>unsigned int<DE> Extent=<ES>34:12 - 34:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\adc.c:34:12: DeclRefExpr=sensor|Z:\msee\iar\MSP\robotcar\adc.c:32:37 (Reference) <US>c:adc.c@1673@F@read_adc@sensor<UE> <DS>unsigned int<DE> Extent=<ES>34:12 - 34:18<EE>

@@ -4,9 +4,6 @@
   <project>
     <path>$WS_DIR$\xxx.ewp</path>
   </project>
-  <project>
-    <path>$WS_DIR$\..\2\xxx.ewp</path>
-  </project>
   <batchBuild/>
 </workspace>
 
