@@ -36,22 +36,42 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=-1280590468
+Checksum=1997823432
 [State Storage]
-Control Register=49232
+Control Register=0
 [Sequencer]
-Control Register=49232
-NextState0=49232
-NextState1=49232
+Control Register=0
+NextState0=0
+NextState1=0
 [Action Register]
-Break=2
+Break=0
 State Storage=1
 [CallStack]
 ShowArgs=0
 [Disassembly]
 MixedMode=1
-[Breakpoints]
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Aliases]
 Count=0
+SuppressDialog=0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
+[Breakpoints]
+Bp0=_ "STD_CODE" "Memory:0xC00C" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\main.c}.236.1" 0 0 0 0 "" 0 ""
+Count=2
 [FET]
 Clock mode=38
 Extended Clock mode=-1
@@ -72,21 +92,3 @@ SP=0
 SR=0
 all registers=0
 File name=
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
-[Aliases]
-Count=0
-SuppressDialog=0
-[CallStackLog]
-Enabled=0
-[DriverProfiling]
-Enabled=0
-Mode=0
-Graph=0
-Symbiont=0
-Exclusions=
