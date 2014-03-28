@@ -1,71 +1,31 @@
 #include  <msp430g2553.h>
 #include  <stdlib.h>
 #include  "adc.h"
+#include  "utils.h"
+
+int leftSensor, rightSensor;
 
 struct map {
 	int posTurn;
 	int *arrTurn;
 };
 
-// -1: right
-// 1: left
+// 1: right
+// -1: left
 // 0: nothing
-// 2: turn around
 
 struct map path;
 
-int arrTurnToTest[10] = {2, 1, 1};
+int arrTurnToTest[10] = {1, 1, -1, -1};
 void setPathToTest(){
-	path.posTurn = 2;
+	path.posTurn = 3;
 	path.arrTurn = arrTurnToTest;
 }
 
-void wait(){ long i = 75000; while(i--); }
-void forwardLeftWheel() { P2OUT &=~ BIT1; }
-void backwardLeftWheel() { P2OUT |= BIT1; }
-void forwardRightWheel(){ P2OUT &=~ BIT5; }
-void backwardRightWheel(){ P2OUT |= BIT5; }
-void forwardWheel(){ forwardLeftWheel(); forwardRightWheel(); }
-void backwardWheel(){ backwardLeftWheel(); backwardRightWheel(); }
-
-
-void startLeftWheel(){ TA1CCR1 = 900; }
-void stopLeftWheel(){ TA1CCR1 = 0; }
-void startRightWheel(){ TA1CCR2 = 900; }
-void stopRightWheel(){ TA1CCR2 = 0; }
-void slowLeftWheel(){ TA1CCR1 = 100; }
-void slowRightWheel(){ TA1CCR2 = 250; }
-void slow() { slowRightWheel(); slowLeftWheel(); }
-void stop(){ stopLeftWheel(); stopRightWheel(); }
-
-void turnLeft(){
-	//backwardLeftWheel();
-	forwardRightWheel();
-	slowLeftWheel();
-	startRightWheel();
-
-	long i = 37000;
-	while(i--);
-	stopRightWheel();
-	stopLeftWheel();
-}
-
-void turnRight(){
-	forwardLeftWheel();
-	backwardRightWheel();
-	startLeftWheel();
-	startRightWheel();
-
-	long i = 37000;
-	while(i--);
-	stopRightWheel();
-	stopLeftWheel();
-}
 
 // 0: straight
 // 1: other
 int onStraigt = 0;
-void turnAround(){ turnLeft();turnLeft(); }
 
 void goStaight(){
 	onStraigt = 1;
@@ -128,22 +88,10 @@ void initTA(){
 	P2SEL |= BIT2 + BIT4;
 }
 
-int front_sensor = 0;
-int left_line_sensor = 0;
-int right_line_sensor = 0;
-
-void onLED0(){ P1OUT |= BIT0; }
-void offLED0(){	P1OUT &=~ BIT0; }
-void onLED6(){ P1OUT |= BIT6; }
-void offLED6(){	P1OUT &=~ BIT6; }
-
-int routeMissCounter = 0;
-int leftSensor, rightSensor;
 void main(void)
 {
 	WDTCTL = WDTPW + WDTHOLD;
- 
-  
+   
 	initTA();
 	initDistanceSensor();
      
@@ -155,38 +103,28 @@ void main(void)
 	P1DIR |= BIT6;
 
 	wait();
-	/*
-	  
-	  turnLeft();
-	  wait();
-	  forwardRightWheel();
-	  forwardLeftWheel();
-	  goStaight(100);
-	*/
+
 	// routeToBank();
 
-	goStaight();
-	forwardWheel();
+	//goStaight();
+	//forwardWheel();
+
 	while(1){
 
-		front_sensor = read_adc(4);
-		left_line_sensor = read_adc(1);
-		right_line_sensor = read_adc(2);
+		//front_sensor = read_adc(4);
+	
+		readLineSensor();
+		if (touchTargetLeft())	{
+			targetReached();
+		}
+
 		/*
 		if (front_sensor > 400) {
-			stopRightWheel();
-			stopLeftWheel();
-		}
-		else{
-			// run
-			forwardLeftWheel();
-			forwardRightWheel();
-			startLeftWheel();
-			startRightWheel();
+			stop();
 		}
 		*/
 
-		if (left_line_sensor > 600) {
+		if (touchRoadLeft()) {
 			// not touching line
 			leftSensor = 1;
 			onLED0();
@@ -195,8 +133,8 @@ void main(void)
 			leftSensor = 0;
 			offLED0();
 		}
-
-		if (right_line_sensor > 600) {
+	
+		if (touchRoadRight()) {
 			rightSensor = 1;
 			onLED6();
 		}
@@ -207,16 +145,15 @@ void main(void)
 
 		if (leftSensor && !rightSensor) {
 			// right touching
-			//startLeftWheel();
 			forwardLeftWheel();
 			backwardRightWheel();
-
+			slow();
 		}
 		if (!leftSensor && rightSensor) {
 			// left touching
-			//startRightWheel();
 			forwardRightWheel();
 			backwardLeftWheel();
+			slow();
 		}
 		if (leftSensor && rightSensor) {
 			// not touching
@@ -226,10 +163,21 @@ void main(void)
 
 		// Touching both line means it meets a turn.
 		if (!leftSensor && !rightSensor) {
-			//stop();
+			/*
+			if (path.posTurn >= 0) {
+				switch (path.arrTurn[path.posTurn]) {
+					case -1:
+					turnLeft();
+					break;
+					case 1:
+					turnRight();
+					break;
+				}
+				path.posTurn--;
+			}
+			*/
 			turnLeft();
 		}
 
-	
 	}
 }

@@ -1683,36 +1683,29 @@
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdlib.h:457:1: macro expansion=_C_STD_END|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\yvals.h:297:11 <US>c:macro@_C_STD_END<UE> <DS>_C_STD_END<DE> Extent=<ES>457:1 - 457:11<EE>
 <L>Z:\msee\iar\MSP\robotcar\main.c:3:1: inclusion directive=adc.h <US><UE> <DS><DE> <IS>Z:\msee\iar\MSP\robotcar\adc.h<IE>  Extent=<ES>3:1 - 3:18<EE>
 <L>Z:\msee\iar\MSP\robotcar\adc.h:1:1: inclusion directive=msp430g2553.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h<IE>  [multi-include guarded] Extent=<ES>1:1 - 1:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:24:37: macro expansion=BIT1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:60:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>24:37 - 24:41<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:25:37: macro expansion=BIT1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:60:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>25:37 - 25:41<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:26:37: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>26:37 - 26:41<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:27:37: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>27:37 - 27:41<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:105:13: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>105:13 - 105:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:105:20: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>105:20 - 105:24<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:106:11: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>106:11 - 106:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:108:12: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>108:12 - 108:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:109:13: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>109:13 - 109:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:114:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>114:1 - 114:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:118:13: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>118:13 - 118:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:122:11: macro expansion=TASSEL_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:597:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>122:11 - 122:19<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:122:22: macro expansion=MC_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:588:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>122:22 - 122:26<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:124:13: macro expansion=OUTMOD_7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:623:9 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>124:13 - 124:21<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:125:13: macro expansion=OUTMOD_7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:623:9 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>125:13 - 125:21<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:127:11: macro expansion=BIT2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:61:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>127:11 - 127:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:127:18: macro expansion=BIT4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:63:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>127:18 - 127:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:128:11: macro expansion=BIT2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:61:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>128:11 - 128:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:128:18: macro expansion=BIT4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:63:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>128:18 - 128:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:135:25: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>135:25 - 135:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:136:27: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>136:27 - 136:31<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:137:25: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:65:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>137:25 - 137:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:138:27: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:65:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>138:27 - 138:31<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:144:11: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:906:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>144:11 - 144:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:144:19: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:904:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>144:19 - 144:26<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:150:11: macro expansion=BIT1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:60:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>150:11 - 150:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:150:18: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>150:18 - 150:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:152:11: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>152:11 - 152:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:153:13: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>153:13 - 153:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:155:11: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:65:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>155:11 - 155:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:4:1: inclusion directive=utils.h <US><UE> <DS><DE> <IS>Z:\msee\iar\MSP\robotcar\utils.h<IE>  Extent=<ES>4:1 - 4:20<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:65:13: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>65:13 - 65:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:65:20: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>65:20 - 65:24<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:66:11: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>66:11 - 66:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:68:12: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>68:12 - 68:16<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:69:13: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>69:13 - 69:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:74:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>74:1 - 74:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:78:13: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>78:13 - 78:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:82:11: macro expansion=TASSEL_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:597:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>82:11 - 82:19<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:82:22: macro expansion=MC_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:588:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>82:22 - 82:26<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:84:13: macro expansion=OUTMOD_7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:623:9 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>84:13 - 84:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:85:13: macro expansion=OUTMOD_7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:623:9 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>85:13 - 85:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:87:11: macro expansion=BIT2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:61:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>87:11 - 87:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:87:18: macro expansion=BIT4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:63:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>87:18 - 87:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:88:11: macro expansion=BIT2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:61:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>88:11 - 88:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:88:18: macro expansion=BIT4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:63:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>88:18 - 88:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:93:11: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:906:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>93:11 - 93:16<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:93:19: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:904:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>93:19 - 93:26<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:98:11: macro expansion=BIT1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:60:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>98:11 - 98:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:98:18: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>98:18 - 98:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:100:11: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>100:11 - 100:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:101:13: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>101:13 - 101:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:103:11: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:65:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>103:11 - 103:15<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -2323,370 +2316,250 @@
 <L>Z:\msee\iar\MSP\robotcar\adc.h:8:30: ParmDecl=|Z:\msee\iar\MSP\robotcar\adc.h:8:30 (Definition) <US><UE> <DS>unsigned int<DE> Extent=<ES>8:16 - 8:31<EE>
 <L>Z:\msee\iar\MSP\robotcar\adc.h:9:14: FunctionDecl=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 (Declaration) <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>9:1 - 9:37<EE>
 <L>Z:\msee\iar\MSP\robotcar\adc.h:9:36: ParmDecl=|Z:\msee\iar\MSP\robotcar\adc.h:9:36 (Definition) <US><UE> <DS>unsigned int<DE> Extent=<ES>9:24 - 9:37<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:5:8: StructDecl=map|Z:\msee\iar\MSP\robotcar\main.c:5:8 (Definition) <US>c:@S@map<UE> <DS>map<DE> Extent=<ES>5:1 - 8:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:6:6: FieldDecl=posTurn|Z:\msee\iar\MSP\robotcar\main.c:6:6 (Definition) <US>c:@S@map@FI@posTurn<UE> <DS>posTurn<DE> Extent=<ES>6:2 - 6:13<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:7:7: FieldDecl=arrTurn|Z:\msee\iar\MSP\robotcar\main.c:7:7 (Definition) <US>c:@S@map@FI@arrTurn<UE> <DS>arrTurn<DE> Extent=<ES>7:2 - 7:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:15:12: VarDecl=path|Z:\msee\iar\MSP\robotcar\main.c:15:12 (Declaration) <US>c:@path<UE> <DS>path<DE> Extent=<ES>15:1 - 15:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:15:8: TypeRef=struct map|Z:\msee\iar\MSP\robotcar\main.c:5:8 (Reference) <US>c:@S@map<UE> <DS>map<DE> Extent=<ES>15:8 - 15:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:17:5: VarDecl=arrTurnToTest|Z:\msee\iar\MSP\robotcar\main.c:17:5 (Definition) <US>c:@arrTurnToTest<UE> <DS>arrTurnToTest<DE> Extent=<ES>17:1 - 17:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:17:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:19 - 17:21<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:17:25: InitListExpr= <US><UE> <DS><DE> Extent=<ES>17:25 - 17:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:17:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:26 - 17:27<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:17:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:29 - 17:30<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:17:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:32 - 17:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:18:6: FunctionDecl=setPathToTest|Z:\msee\iar\MSP\robotcar\main.c:18:6 (Definition) <US>c:@F@setPathToTest<UE> <DS>void setPathToTest(void)<DE> Extent=<ES>18:1 - 21:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:18:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>18:21 - 21:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:19:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>19:2 - 19:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:19:7: MemberRefExpr=posTurn|Z:\msee\iar\MSP\robotcar\main.c:6:6 (Reference) <US>c:@S@map@FI@posTurn<UE> <DS>posTurn<DE> Extent=<ES>19:2 - 19:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:19:2: DeclRefExpr=path|Z:\msee\iar\MSP\robotcar\main.c:15:12 (Reference) <US>c:@path<UE> <DS>path<DE> Extent=<ES>19:2 - 19:6<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:19:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>19:17 - 19:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:20:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>20:2 - 20:30<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:20:7: MemberRefExpr=arrTurn|Z:\msee\iar\MSP\robotcar\main.c:7:7 (Reference) <US>c:@S@map@FI@arrTurn<UE> <DS>arrTurn<DE> Extent=<ES>20:2 - 20:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:20:2: DeclRefExpr=path|Z:\msee\iar\MSP\robotcar\main.c:15:12 (Reference) <US>c:@path<UE> <DS>path<DE> Extent=<ES>20:2 - 20:6<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:20:17: UnexposedExpr=arrTurnToTest|Z:\msee\iar\MSP\robotcar\main.c:17:5 <US>c:@arrTurnToTest<UE> <DS>arrTurnToTest<DE> Extent=<ES>20:17 - 20:30<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:20:17: DeclRefExpr=arrTurnToTest|Z:\msee\iar\MSP\robotcar\main.c:17:5 (Reference) <US>c:@arrTurnToTest<UE> <DS>arrTurnToTest<DE> Extent=<ES>20:17 - 20:30<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:23:6: FunctionDecl=wait|Z:\msee\iar\MSP\robotcar\main.c:23:6 (Definition) <US>c:@F@wait<UE> <DS>void wait(void)<DE> Extent=<ES>23:1 - 23:43<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:23:12: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>23:12 - 23:43<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:23:14: DeclStmt= <US><UE> <DS><DE> Extent=<ES>23:14 - 23:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:23:19: VarDecl=i|Z:\msee\iar\MSP\robotcar\main.c:23:19 (Definition) <US>c:main.c@332@F@wait@i<UE> <DS>i<DE> Extent=<ES>23:14 - 23:28<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:23:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>23:23 - 23:28<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:23:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>23:23 - 23:28<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:23:30: WhileStmt= <US><UE> <DS><DE> Extent=<ES>23:30 - 23:41<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:23:36: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>23:36 - 23:39<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:23:36: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\main.c:23:19 (Reference) <US>c:main.c@332@F@wait@i<UE> <DS>i<DE> Extent=<ES>23:36 - 23:37<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:23:40: NullStmt= <US><UE> <DS><DE> Extent=<ES>23:40 - 23:41<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:24:6: FunctionDecl=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:24:6 (Definition) <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>24:1 - 24:44<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:24:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>24:25 - 24:44<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:25:6: FunctionDecl=backwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:25:6 (Definition) <US>c:@F@backwardLeftWheel<UE> <DS>void backwardLeftWheel(void)<DE> Extent=<ES>25:1 - 25:44<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:25:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>25:26 - 25:44<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:26:6: FunctionDecl=forwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:26:6 (Definition) <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>26:1 - 26:44<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:26:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>26:25 - 26:44<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:27:6: FunctionDecl=backwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:27:6 (Definition) <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>27:1 - 27:44<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:27:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>27:26 - 27:44<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:28:6: FunctionDecl=forwardWheel|Z:\msee\iar\MSP\robotcar\main.c:28:6 (Definition) <US>c:@F@forwardWheel<UE> <DS>void forwardWheel(void)<DE> Extent=<ES>28:1 - 28:64<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:28:20: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>28:20 - 28:64<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:28:22: CallExpr=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:24:6 <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>28:22 - 28:40<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:28:22: UnexposedExpr=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:24:6 <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>28:22 - 28:38<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:28:22: DeclRefExpr=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:24:6 (Reference) <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>28:22 - 28:38<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:28:42: CallExpr=forwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:26:6 <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>28:42 - 28:61<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:28:42: UnexposedExpr=forwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:26:6 <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>28:42 - 28:59<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:28:42: DeclRefExpr=forwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:26:6 (Reference) <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>28:42 - 28:59<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:29:6: FunctionDecl=backwardWheel|Z:\msee\iar\MSP\robotcar\main.c:29:6 (Definition) <US>c:@F@backwardWheel<UE> <DS>void backwardWheel(void)<DE> Extent=<ES>29:1 - 29:67<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:29:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>29:21 - 29:67<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:29:23: CallExpr=backwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:25:6 <US>c:@F@backwardLeftWheel<UE> <DS>void backwardLeftWheel(void)<DE> Extent=<ES>29:23 - 29:42<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:29:23: UnexposedExpr=backwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:25:6 <US>c:@F@backwardLeftWheel<UE> <DS>void backwardLeftWheel(void)<DE> Extent=<ES>29:23 - 29:40<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:29:23: DeclRefExpr=backwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:25:6 (Reference) <US>c:@F@backwardLeftWheel<UE> <DS>void backwardLeftWheel(void)<DE> Extent=<ES>29:23 - 29:40<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:29:44: CallExpr=backwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:27:6 <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>29:44 - 29:64<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:29:44: UnexposedExpr=backwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:27:6 <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>29:44 - 29:62<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:29:44: DeclRefExpr=backwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:27:6 (Reference) <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>29:44 - 29:62<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:32:6: FunctionDecl=startLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:32:6 (Definition) <US>c:@F@startLeftWheel<UE> <DS>void startLeftWheel(void)<DE> Extent=<ES>32:1 - 32:40<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:32:22: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>32:22 - 32:40<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:33:6: FunctionDecl=stopLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:33:6 (Definition) <US>c:@F@stopLeftWheel<UE> <DS>void stopLeftWheel(void)<DE> Extent=<ES>33:1 - 33:37<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:33:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>33:21 - 33:37<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:34:6: FunctionDecl=startRightWheel|Z:\msee\iar\MSP\robotcar\main.c:34:6 (Definition) <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>34:1 - 34:41<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:34:23: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>34:23 - 34:41<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:35:6: FunctionDecl=stopRightWheel|Z:\msee\iar\MSP\robotcar\main.c:35:6 (Definition) <US>c:@F@stopRightWheel<UE> <DS>void stopRightWheel(void)<DE> Extent=<ES>35:1 - 35:38<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:35:22: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>35:22 - 35:38<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:36:6: FunctionDecl=slowLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:36:6 (Definition) <US>c:@F@slowLeftWheel<UE> <DS>void slowLeftWheel(void)<DE> Extent=<ES>36:1 - 36:39<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:36:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>36:21 - 36:39<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:37:6: FunctionDecl=slowRightWheel|Z:\msee\iar\MSP\robotcar\main.c:37:6 (Definition) <US>c:@F@slowRightWheel<UE> <DS>void slowRightWheel(void)<DE> Extent=<ES>37:1 - 37:40<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:37:22: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>37:22 - 37:40<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:38:6: FunctionDecl=slow|Z:\msee\iar\MSP\robotcar\main.c:38:6 (Definition) <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>38:1 - 38:51<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:38:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>38:13 - 38:51<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:38:15: CallExpr=slowRightWheel|Z:\msee\iar\MSP\robotcar\main.c:37:6 <US>c:@F@slowRightWheel<UE> <DS>void slowRightWheel(void)<DE> Extent=<ES>38:15 - 38:31<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:38:15: UnexposedExpr=slowRightWheel|Z:\msee\iar\MSP\robotcar\main.c:37:6 <US>c:@F@slowRightWheel<UE> <DS>void slowRightWheel(void)<DE> Extent=<ES>38:15 - 38:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:38:15: DeclRefExpr=slowRightWheel|Z:\msee\iar\MSP\robotcar\main.c:37:6 (Reference) <US>c:@F@slowRightWheel<UE> <DS>void slowRightWheel(void)<DE> Extent=<ES>38:15 - 38:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:38:33: CallExpr=slowLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:36:6 <US>c:@F@slowLeftWheel<UE> <DS>void slowLeftWheel(void)<DE> Extent=<ES>38:33 - 38:48<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:38:33: UnexposedExpr=slowLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:36:6 <US>c:@F@slowLeftWheel<UE> <DS>void slowLeftWheel(void)<DE> Extent=<ES>38:33 - 38:46<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:38:33: DeclRefExpr=slowLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:36:6 (Reference) <US>c:@F@slowLeftWheel<UE> <DS>void slowLeftWheel(void)<DE> Extent=<ES>38:33 - 38:46<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:39:6: FunctionDecl=stop|Z:\msee\iar\MSP\robotcar\main.c:39:6 (Definition) <US>c:@F@stop<UE> <DS>void stop(void)<DE> Extent=<ES>39:1 - 39:50<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:39:12: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>39:12 - 39:50<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:39:14: CallExpr=stopLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:33:6 <US>c:@F@stopLeftWheel<UE> <DS>void stopLeftWheel(void)<DE> Extent=<ES>39:14 - 39:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:39:14: UnexposedExpr=stopLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:33:6 <US>c:@F@stopLeftWheel<UE> <DS>void stopLeftWheel(void)<DE> Extent=<ES>39:14 - 39:27<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:39:14: DeclRefExpr=stopLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:33:6 (Reference) <US>c:@F@stopLeftWheel<UE> <DS>void stopLeftWheel(void)<DE> Extent=<ES>39:14 - 39:27<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:39:31: CallExpr=stopRightWheel|Z:\msee\iar\MSP\robotcar\main.c:35:6 <US>c:@F@stopRightWheel<UE> <DS>void stopRightWheel(void)<DE> Extent=<ES>39:31 - 39:47<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:39:31: UnexposedExpr=stopRightWheel|Z:\msee\iar\MSP\robotcar\main.c:35:6 <US>c:@F@stopRightWheel<UE> <DS>void stopRightWheel(void)<DE> Extent=<ES>39:31 - 39:45<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:39:31: DeclRefExpr=stopRightWheel|Z:\msee\iar\MSP\robotcar\main.c:35:6 (Reference) <US>c:@F@stopRightWheel<UE> <DS>void stopRightWheel(void)<DE> Extent=<ES>39:31 - 39:45<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:41:6: FunctionDecl=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 (Definition) <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>41:1 - 51:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:41:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>41:16 - 51:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:43:2: CallExpr=forwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:26:6 <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>43:2 - 43:21<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:43:2: UnexposedExpr=forwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:26:6 <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>43:2 - 43:19<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:43:2: DeclRefExpr=forwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:26:6 (Reference) <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>43:2 - 43:19<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:44:2: CallExpr=slowLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:36:6 <US>c:@F@slowLeftWheel<UE> <DS>void slowLeftWheel(void)<DE> Extent=<ES>44:2 - 44:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:44:2: UnexposedExpr=slowLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:36:6 <US>c:@F@slowLeftWheel<UE> <DS>void slowLeftWheel(void)<DE> Extent=<ES>44:2 - 44:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:44:2: DeclRefExpr=slowLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:36:6 (Reference) <US>c:@F@slowLeftWheel<UE> <DS>void slowLeftWheel(void)<DE> Extent=<ES>44:2 - 44:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:45:2: CallExpr=startRightWheel|Z:\msee\iar\MSP\robotcar\main.c:34:6 <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>45:2 - 45:19<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:45:2: UnexposedExpr=startRightWheel|Z:\msee\iar\MSP\robotcar\main.c:34:6 <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>45:2 - 45:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:45:2: DeclRefExpr=startRightWheel|Z:\msee\iar\MSP\robotcar\main.c:34:6 (Reference) <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>45:2 - 45:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:47:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>47:2 - 47:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:47:7: VarDecl=i|Z:\msee\iar\MSP\robotcar\main.c:47:7 (Definition) <US>c:main.c@1135@F@turnLeft@i<UE> <DS>i<DE> Extent=<ES>47:2 - 47:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:47:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>47:11 - 47:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:47:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:11 - 47:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:48:2: WhileStmt= <US><UE> <DS><DE> Extent=<ES>48:2 - 48:13<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:48:8: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>48:8 - 48:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:48:8: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\main.c:47:7 (Reference) <US>c:main.c@1135@F@turnLeft@i<UE> <DS>i<DE> Extent=<ES>48:8 - 48:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:48:12: NullStmt= <US><UE> <DS><DE> Extent=<ES>48:12 - 48:13<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:49:2: CallExpr=stopRightWheel|Z:\msee\iar\MSP\robotcar\main.c:35:6 <US>c:@F@stopRightWheel<UE> <DS>void stopRightWheel(void)<DE> Extent=<ES>49:2 - 49:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:49:2: UnexposedExpr=stopRightWheel|Z:\msee\iar\MSP\robotcar\main.c:35:6 <US>c:@F@stopRightWheel<UE> <DS>void stopRightWheel(void)<DE> Extent=<ES>49:2 - 49:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:49:2: DeclRefExpr=stopRightWheel|Z:\msee\iar\MSP\robotcar\main.c:35:6 (Reference) <US>c:@F@stopRightWheel<UE> <DS>void stopRightWheel(void)<DE> Extent=<ES>49:2 - 49:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:50:2: CallExpr=stopLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:33:6 <US>c:@F@stopLeftWheel<UE> <DS>void stopLeftWheel(void)<DE> Extent=<ES>50:2 - 50:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:50:2: UnexposedExpr=stopLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:33:6 <US>c:@F@stopLeftWheel<UE> <DS>void stopLeftWheel(void)<DE> Extent=<ES>50:2 - 50:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:50:2: DeclRefExpr=stopLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:33:6 (Reference) <US>c:@F@stopLeftWheel<UE> <DS>void stopLeftWheel(void)<DE> Extent=<ES>50:2 - 50:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:53:6: FunctionDecl=turnRight|Z:\msee\iar\MSP\robotcar\main.c:53:6 (Definition) <US>c:@F@turnRight<UE> <DS>void turnRight(void)<DE> Extent=<ES>53:1 - 63:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:53:17: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>53:17 - 63:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:54:2: CallExpr=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:24:6 <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>54:2 - 54:20<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:54:2: UnexposedExpr=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:24:6 <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>54:2 - 54:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:54:2: DeclRefExpr=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:24:6 (Reference) <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>54:2 - 54:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:55:2: CallExpr=backwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:27:6 <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>55:2 - 55:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:55:2: UnexposedExpr=backwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:27:6 <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>55:2 - 55:20<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:55:2: DeclRefExpr=backwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:27:6 (Reference) <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>55:2 - 55:20<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:56:2: CallExpr=startLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:32:6 <US>c:@F@startLeftWheel<UE> <DS>void startLeftWheel(void)<DE> Extent=<ES>56:2 - 56:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:56:2: UnexposedExpr=startLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:32:6 <US>c:@F@startLeftWheel<UE> <DS>void startLeftWheel(void)<DE> Extent=<ES>56:2 - 56:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:56:2: DeclRefExpr=startLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:32:6 (Reference) <US>c:@F@startLeftWheel<UE> <DS>void startLeftWheel(void)<DE> Extent=<ES>56:2 - 56:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:57:2: CallExpr=startRightWheel|Z:\msee\iar\MSP\robotcar\main.c:34:6 <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>57:2 - 57:19<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:57:2: UnexposedExpr=startRightWheel|Z:\msee\iar\MSP\robotcar\main.c:34:6 <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>57:2 - 57:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:57:2: DeclRefExpr=startRightWheel|Z:\msee\iar\MSP\robotcar\main.c:34:6 (Reference) <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>57:2 - 57:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:59:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>59:2 - 59:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:59:7: VarDecl=i|Z:\msee\iar\MSP\robotcar\main.c:59:7 (Definition) <US>c:main.c@1319@F@turnRight@i<UE> <DS>i<DE> Extent=<ES>59:2 - 59:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:59:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>59:11 - 59:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:59:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:11 - 59:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:60:2: WhileStmt= <US><UE> <DS><DE> Extent=<ES>60:2 - 60:13<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:60:8: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>60:8 - 60:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:60:8: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\main.c:59:7 (Reference) <US>c:main.c@1319@F@turnRight@i<UE> <DS>i<DE> Extent=<ES>60:8 - 60:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:60:12: NullStmt= <US><UE> <DS><DE> Extent=<ES>60:12 - 60:13<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:61:2: CallExpr=stopRightWheel|Z:\msee\iar\MSP\robotcar\main.c:35:6 <US>c:@F@stopRightWheel<UE> <DS>void stopRightWheel(void)<DE> Extent=<ES>61:2 - 61:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:61:2: UnexposedExpr=stopRightWheel|Z:\msee\iar\MSP\robotcar\main.c:35:6 <US>c:@F@stopRightWheel<UE> <DS>void stopRightWheel(void)<DE> Extent=<ES>61:2 - 61:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:61:2: DeclRefExpr=stopRightWheel|Z:\msee\iar\MSP\robotcar\main.c:35:6 (Reference) <US>c:@F@stopRightWheel<UE> <DS>void stopRightWheel(void)<DE> Extent=<ES>61:2 - 61:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:62:2: CallExpr=stopLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:33:6 <US>c:@F@stopLeftWheel<UE> <DS>void stopLeftWheel(void)<DE> Extent=<ES>62:2 - 62:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:62:2: UnexposedExpr=stopLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:33:6 <US>c:@F@stopLeftWheel<UE> <DS>void stopLeftWheel(void)<DE> Extent=<ES>62:2 - 62:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:62:2: DeclRefExpr=stopLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:33:6 (Reference) <US>c:@F@stopLeftWheel<UE> <DS>void stopLeftWheel(void)<DE> Extent=<ES>62:2 - 62:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:67:5: VarDecl=onStraigt|Z:\msee\iar\MSP\robotcar\main.c:67:5 (Definition) <US>c:@onStraigt<UE> <DS>onStraigt<DE> Extent=<ES>67:1 - 67:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:67:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>67:17 - 67:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:68:6: FunctionDecl=turnAround|Z:\msee\iar\MSP\robotcar\main.c:68:6 (Definition) <US>c:@F@turnAround<UE> <DS>void turnAround(void)<DE> Extent=<ES>68:1 - 68:44<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:68:18: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>68:18 - 68:44<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:68:20: CallExpr=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>68:20 - 68:30<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:68:20: UnexposedExpr=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>68:20 - 68:28<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:68:20: DeclRefExpr=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 (Reference) <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>68:20 - 68:28<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:68:31: CallExpr=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>68:31 - 68:41<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:68:31: UnexposedExpr=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>68:31 - 68:39<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:68:31: DeclRefExpr=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 (Reference) <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>68:31 - 68:39<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:70:6: FunctionDecl=goStaight|Z:\msee\iar\MSP\robotcar\main.c:70:6 (Definition) <US>c:@F@goStaight<UE> <DS>void goStaight(void)<DE> Extent=<ES>70:1 - 74:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:70:17: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>70:17 - 74:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:71:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>71:2 - 71:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:71:2: DeclRefExpr=onStraigt|Z:\msee\iar\MSP\robotcar\main.c:67:5 (Reference) <US>c:@onStraigt<UE> <DS>onStraigt<DE> Extent=<ES>71:2 - 71:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:71:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>71:14 - 71:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:72:2: CallExpr=startLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:32:6 <US>c:@F@startLeftWheel<UE> <DS>void startLeftWheel(void)<DE> Extent=<ES>72:2 - 72:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:72:2: UnexposedExpr=startLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:32:6 <US>c:@F@startLeftWheel<UE> <DS>void startLeftWheel(void)<DE> Extent=<ES>72:2 - 72:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:72:2: DeclRefExpr=startLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:32:6 (Reference) <US>c:@F@startLeftWheel<UE> <DS>void startLeftWheel(void)<DE> Extent=<ES>72:2 - 72:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:73:2: CallExpr=startRightWheel|Z:\msee\iar\MSP\robotcar\main.c:34:6 <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>73:2 - 73:19<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:73:2: UnexposedExpr=startRightWheel|Z:\msee\iar\MSP\robotcar\main.c:34:6 <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>73:2 - 73:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:73:2: DeclRefExpr=startRightWheel|Z:\msee\iar\MSP\robotcar\main.c:34:6 (Reference) <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>73:2 - 73:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:75:6: FunctionDecl=goStaightIterate|Z:\msee\iar\MSP\robotcar\main.c:75:6 (Definition) <US>c:@F@goStaightIterate<UE> <DS>void goStaightIterate(void)<DE> Extent=<ES>75:1 - 92:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:75:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>75:24 - 92:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:77:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>77:2 - 77:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:77:2: DeclRefExpr=onStraigt|Z:\msee\iar\MSP\robotcar\main.c:67:5 (Reference) <US>c:@onStraigt<UE> <DS>onStraigt<DE> Extent=<ES>77:2 - 77:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:77:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>77:14 - 77:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:79:2: SwitchStmt= <US><UE> <DS><DE> Extent=<ES>79:2 - 89:3<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:79:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>79:10 - 79:36<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:79:10: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>79:10 - 79:36<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:79:15: UnexposedExpr=arrTurn|Z:\msee\iar\MSP\robotcar\main.c:7:7 <US>c:@S@map@FI@arrTurn<UE> <DS>arrTurn<DE> Extent=<ES>79:10 - 79:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:79:15: MemberRefExpr=arrTurn|Z:\msee\iar\MSP\robotcar\main.c:7:7 (Reference) <US>c:@S@map@FI@arrTurn<UE> <DS>arrTurn<DE> Extent=<ES>79:10 - 79:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:79:10: DeclRefExpr=path|Z:\msee\iar\MSP\robotcar\main.c:15:12 (Reference) <US>c:@path<UE> <DS>path<DE> Extent=<ES>79:10 - 79:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:79:28: UnexposedExpr=posTurn|Z:\msee\iar\MSP\robotcar\main.c:6:6 <US>c:@S@map@FI@posTurn<UE> <DS>posTurn<DE> Extent=<ES>79:23 - 79:35<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:79:28: MemberRefExpr=posTurn|Z:\msee\iar\MSP\robotcar\main.c:6:6 (Reference) <US>c:@S@map@FI@posTurn<UE> <DS>posTurn<DE> Extent=<ES>79:23 - 79:35<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:79:23: DeclRefExpr=path|Z:\msee\iar\MSP\robotcar\main.c:15:12 (Reference) <US>c:@path<UE> <DS>path<DE> Extent=<ES>79:23 - 79:27<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:79:38: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>79:38 - 89:3<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:80:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>80:2 - 81:13<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:80:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>80:7 - 80:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:81:3: CallExpr=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>81:3 - 81:13<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:81:3: UnexposedExpr=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>81:3 - 81:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:81:3: DeclRefExpr=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 (Reference) <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>81:3 - 81:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:82:3: BreakStmt= <US><UE> <DS><DE> Extent=<ES>82:3 - 82:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:83:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>83:2 - 84:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:83:7: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>83:7 - 83:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:83:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>83:8 - 83:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:84:3: CallExpr=turnRight|Z:\msee\iar\MSP\robotcar\main.c:53:6 <US>c:@F@turnRight<UE> <DS>void turnRight(void)<DE> Extent=<ES>84:3 - 84:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:84:3: UnexposedExpr=turnRight|Z:\msee\iar\MSP\robotcar\main.c:53:6 <US>c:@F@turnRight<UE> <DS>void turnRight(void)<DE> Extent=<ES>84:3 - 84:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:84:3: DeclRefExpr=turnRight|Z:\msee\iar\MSP\robotcar\main.c:53:6 (Reference) <US>c:@F@turnRight<UE> <DS>void turnRight(void)<DE> Extent=<ES>84:3 - 84:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:85:3: BreakStmt= <US><UE> <DS><DE> Extent=<ES>85:3 - 85:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:86:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>86:2 - 87:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:86:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>86:7 - 86:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:87:3: CallExpr=turnAround|Z:\msee\iar\MSP\robotcar\main.c:68:6 <US>c:@F@turnAround<UE> <DS>void turnAround(void)<DE> Extent=<ES>87:3 - 87:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:87:3: UnexposedExpr=turnAround|Z:\msee\iar\MSP\robotcar\main.c:68:6 <US>c:@F@turnAround<UE> <DS>void turnAround(void)<DE> Extent=<ES>87:3 - 87:13<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:87:3: DeclRefExpr=turnAround|Z:\msee\iar\MSP\robotcar\main.c:68:6 (Reference) <US>c:@F@turnAround<UE> <DS>void turnAround(void)<DE> Extent=<ES>87:3 - 87:13<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:88:3: BreakStmt= <US><UE> <DS><DE> Extent=<ES>88:3 - 88:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:91:2: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>91:2 - 91:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:91:7: MemberRefExpr=posTurn|Z:\msee\iar\MSP\robotcar\main.c:6:6 (Reference) <US>c:@S@map@FI@posTurn<UE> <DS>posTurn<DE> Extent=<ES>91:2 - 91:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:91:2: DeclRefExpr=path|Z:\msee\iar\MSP\robotcar\main.c:15:12 (Reference) <US>c:@path<UE> <DS>path<DE> Extent=<ES>91:2 - 91:6<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:93:6: FunctionDecl=route|Z:\msee\iar\MSP\robotcar\main.c:93:6 (Definition) <US>c:@F@route<UE> <DS>void route(void)<DE> Extent=<ES>93:1 - 94:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:93:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>93:13 - 94:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:96:6: FunctionDecl=routeToBank|Z:\msee\iar\MSP\robotcar\main.c:96:6 (Definition) <US>c:@F@routeToBank<UE> <DS>void routeToBank(void)<DE> Extent=<ES>96:1 - 98:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:96:19: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>96:19 - 98:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:97:2: CallExpr=setPathToTest|Z:\msee\iar\MSP\robotcar\main.c:18:6 <US>c:@F@setPathToTest<UE> <DS>void setPathToTest(void)<DE> Extent=<ES>97:2 - 97:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:97:2: UnexposedExpr=setPathToTest|Z:\msee\iar\MSP\robotcar\main.c:18:6 <US>c:@F@setPathToTest<UE> <DS>void setPathToTest(void)<DE> Extent=<ES>97:2 - 97:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:97:2: DeclRefExpr=setPathToTest|Z:\msee\iar\MSP\robotcar\main.c:18:6 (Reference) <US>c:@F@setPathToTest<UE> <DS>void setPathToTest(void)<DE> Extent=<ES>97:2 - 97:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:101:6: FunctionDecl=initDistanceSensor|Z:\msee\iar\MSP\robotcar\main.c:101:6 (Definition) <US>c:@F@initDistanceSensor<UE> <DS>void initDistanceSensor(void)<DE> Extent=<ES>101:1 - 110:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:101:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>101:26 - 110:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:103:2: CallExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>103:2 - 103:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:103:2: UnexposedExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>103:2 - 103:20<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:103:2: DeclRefExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>103:2 - 103:20<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:114:18: FunctionDecl=Port_2|Z:\msee\iar\MSP\robotcar\main.c:114:18 (Definition) <US>c:@F@Port_2<UE> <DS>void Port_2(void)<DE> Extent=<ES>114:13 - 119:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:115:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>115:1 - 119:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:116:2: CallExpr=route|Z:\msee\iar\MSP\robotcar\main.c:93:6 <US>c:@F@route<UE> <DS>void route(void)<DE> Extent=<ES>116:2 - 116:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:116:2: UnexposedExpr=route|Z:\msee\iar\MSP\robotcar\main.c:93:6 <US>c:@F@route<UE> <DS>void route(void)<DE> Extent=<ES>116:2 - 116:7<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:116:2: DeclRefExpr=route|Z:\msee\iar\MSP\robotcar\main.c:93:6 (Reference) <US>c:@F@route<UE> <DS>void route(void)<DE> Extent=<ES>116:2 - 116:7<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:121:6: FunctionDecl=initTA|Z:\msee\iar\MSP\robotcar\main.c:121:6 (Definition) <US>c:@F@initTA<UE> <DS>void initTA(void)<DE> Extent=<ES>121:1 - 129:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:121:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>121:14 - 129:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:131:5: VarDecl=front_sensor|Z:\msee\iar\MSP\robotcar\main.c:131:5 (Definition) <US>c:@front_sensor<UE> <DS>front_sensor<DE> Extent=<ES>131:1 - 131:21<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:131:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>131:20 - 131:21<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:132:5: VarDecl=left_line_sensor|Z:\msee\iar\MSP\robotcar\main.c:132:5 (Definition) <US>c:@left_line_sensor<UE> <DS>left_line_sensor<DE> Extent=<ES>132:1 - 132:25<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:132:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>132:24 - 132:25<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:133:5: VarDecl=right_line_sensor|Z:\msee\iar\MSP\robotcar\main.c:133:5 (Definition) <US>c:@right_line_sensor<UE> <DS>right_line_sensor<DE> Extent=<ES>133:1 - 133:26<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:133:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>133:25 - 133:26<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:135:6: FunctionDecl=onLED0|Z:\msee\iar\MSP\robotcar\main.c:135:6 (Definition) <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>135:1 - 135:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:135:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>135:14 - 135:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:136:6: FunctionDecl=offLED0|Z:\msee\iar\MSP\robotcar\main.c:136:6 (Definition) <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>136:1 - 136:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:136:15: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>136:15 - 136:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:137:6: FunctionDecl=onLED6|Z:\msee\iar\MSP\robotcar\main.c:137:6 (Definition) <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>137:1 - 137:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:137:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>137:14 - 137:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:138:6: FunctionDecl=offLED6|Z:\msee\iar\MSP\robotcar\main.c:138:6 (Definition) <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>138:1 - 138:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:138:15: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>138:15 - 138:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:140:5: VarDecl=routeMissCounter|Z:\msee\iar\MSP\robotcar\main.c:140:5 (Definition) <US>c:@routeMissCounter<UE> <DS>routeMissCounter<DE> Extent=<ES>140:1 - 140:25<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:140:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>140:24 - 140:25<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:141:5: VarDecl=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:141:5 (Declaration) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>141:1 - 141:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:141:17: VarDecl=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:141:17 (Declaration) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>141:1 - 141:28<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:142:6: FunctionDecl=main|Z:\msee\iar\MSP\robotcar\main.c:142:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>142:1 - 235:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:143:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>143:1 - 235:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:147:2: CallExpr=initTA|Z:\msee\iar\MSP\robotcar\main.c:121:6 <US>c:@F@initTA<UE> <DS>void initTA(void)<DE> Extent=<ES>147:2 - 147:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:147:2: UnexposedExpr=initTA|Z:\msee\iar\MSP\robotcar\main.c:121:6 <US>c:@F@initTA<UE> <DS>void initTA(void)<DE> Extent=<ES>147:2 - 147:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:147:2: DeclRefExpr=initTA|Z:\msee\iar\MSP\robotcar\main.c:121:6 (Reference) <US>c:@F@initTA<UE> <DS>void initTA(void)<DE> Extent=<ES>147:2 - 147:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:148:2: CallExpr=initDistanceSensor|Z:\msee\iar\MSP\robotcar\main.c:101:6 <US>c:@F@initDistanceSensor<UE> <DS>void initDistanceSensor(void)<DE> Extent=<ES>148:2 - 148:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:148:2: UnexposedExpr=initDistanceSensor|Z:\msee\iar\MSP\robotcar\main.c:101:6 <US>c:@F@initDistanceSensor<UE> <DS>void initDistanceSensor(void)<DE> Extent=<ES>148:2 - 148:20<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:148:2: DeclRefExpr=initDistanceSensor|Z:\msee\iar\MSP\robotcar\main.c:101:6 (Reference) <US>c:@F@initDistanceSensor<UE> <DS>void initDistanceSensor(void)<DE> Extent=<ES>148:2 - 148:20<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:157:2: CallExpr=wait|Z:\msee\iar\MSP\robotcar\main.c:23:6 <US>c:@F@wait<UE> <DS>void wait(void)<DE> Extent=<ES>157:2 - 157:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:157:2: UnexposedExpr=wait|Z:\msee\iar\MSP\robotcar\main.c:23:6 <US>c:@F@wait<UE> <DS>void wait(void)<DE> Extent=<ES>157:2 - 157:6<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:157:2: DeclRefExpr=wait|Z:\msee\iar\MSP\robotcar\main.c:23:6 (Reference) <US>c:@F@wait<UE> <DS>void wait(void)<DE> Extent=<ES>157:2 - 157:6<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:168:2: CallExpr=goStaight|Z:\msee\iar\MSP\robotcar\main.c:70:6 <US>c:@F@goStaight<UE> <DS>void goStaight(void)<DE> Extent=<ES>168:2 - 168:13<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:168:2: UnexposedExpr=goStaight|Z:\msee\iar\MSP\robotcar\main.c:70:6 <US>c:@F@goStaight<UE> <DS>void goStaight(void)<DE> Extent=<ES>168:2 - 168:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:168:2: DeclRefExpr=goStaight|Z:\msee\iar\MSP\robotcar\main.c:70:6 (Reference) <US>c:@F@goStaight<UE> <DS>void goStaight(void)<DE> Extent=<ES>168:2 - 168:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:169:2: CallExpr=forwardWheel|Z:\msee\iar\MSP\robotcar\main.c:28:6 <US>c:@F@forwardWheel<UE> <DS>void forwardWheel(void)<DE> Extent=<ES>169:2 - 169:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:169:2: UnexposedExpr=forwardWheel|Z:\msee\iar\MSP\robotcar\main.c:28:6 <US>c:@F@forwardWheel<UE> <DS>void forwardWheel(void)<DE> Extent=<ES>169:2 - 169:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:169:2: DeclRefExpr=forwardWheel|Z:\msee\iar\MSP\robotcar\main.c:28:6 (Reference) <US>c:@F@forwardWheel<UE> <DS>void forwardWheel(void)<DE> Extent=<ES>169:2 - 169:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:170:2: WhileStmt= <US><UE> <DS><DE> Extent=<ES>170:2 - 234:3<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:170:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>170:8 - 170:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:170:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>170:10 - 234:3<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:172:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>172:3 - 172:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:172:3: DeclRefExpr=front_sensor|Z:\msee\iar\MSP\robotcar\main.c:131:5 (Reference) <US>c:@front_sensor<UE> <DS>front_sensor<DE> Extent=<ES>172:3 - 172:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:172:18: UnexposedExpr=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>172:18 - 172:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:172:18: CallExpr=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>172:18 - 172:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:172:18: UnexposedExpr=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>172:18 - 172:26<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:172:18: DeclRefExpr=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 (Reference) <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>172:18 - 172:26<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:172:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>172:27 - 172:28<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:172:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>172:27 - 172:28<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:173:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>173:3 - 173:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:173:3: DeclRefExpr=left_line_sensor|Z:\msee\iar\MSP\robotcar\main.c:132:5 (Reference) <US>c:@left_line_sensor<UE> <DS>left_line_sensor<DE> Extent=<ES>173:3 - 173:19<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:173:22: UnexposedExpr=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>173:22 - 173:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:173:22: CallExpr=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>173:22 - 173:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:173:22: UnexposedExpr=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>173:22 - 173:30<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:173:22: DeclRefExpr=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 (Reference) <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>173:22 - 173:30<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:173:31: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>173:31 - 173:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:173:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>173:31 - 173:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:174:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>174:3 - 174:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:174:3: DeclRefExpr=right_line_sensor|Z:\msee\iar\MSP\robotcar\main.c:133:5 (Reference) <US>c:@right_line_sensor<UE> <DS>right_line_sensor<DE> Extent=<ES>174:3 - 174:20<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:174:23: UnexposedExpr=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>174:23 - 174:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:174:23: CallExpr=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>174:23 - 174:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:174:23: UnexposedExpr=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>174:23 - 174:31<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:174:23: DeclRefExpr=read_adc|Z:\msee\iar\MSP\robotcar\adc.h:9:14 (Reference) <US>c:@F@read_adc<UE> <DS>unsigned int read_adc(unsigned int)<DE> Extent=<ES>174:23 - 174:31<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:174:32: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>174:32 - 174:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:174:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>174:32 - 174:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:189:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>189:3 - 197:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:189:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>189:7 - 189:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:189:7: UnexposedExpr=left_line_sensor|Z:\msee\iar\MSP\robotcar\main.c:132:5 <US>c:@left_line_sensor<UE> <DS>left_line_sensor<DE> Extent=<ES>189:7 - 189:23<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:189:7: DeclRefExpr=left_line_sensor|Z:\msee\iar\MSP\robotcar\main.c:132:5 (Reference) <US>c:@left_line_sensor<UE> <DS>left_line_sensor<DE> Extent=<ES>189:7 - 189:23<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:189:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>189:26 - 189:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:189:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>189:31 - 193:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:191:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>191:4 - 191:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:191:4: DeclRefExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:141:5 (Reference) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>191:4 - 191:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:191:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>191:17 - 191:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:192:4: CallExpr=onLED0|Z:\msee\iar\MSP\robotcar\main.c:135:6 <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>192:4 - 192:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:192:4: UnexposedExpr=onLED0|Z:\msee\iar\MSP\robotcar\main.c:135:6 <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>192:4 - 192:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:192:4: DeclRefExpr=onLED0|Z:\msee\iar\MSP\robotcar\main.c:135:6 (Reference) <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>192:4 - 192:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:194:8: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>194:8 - 197:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:195:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>195:4 - 195:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:195:4: DeclRefExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:141:5 (Reference) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>195:4 - 195:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:195:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>195:17 - 195:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:196:4: CallExpr=offLED0|Z:\msee\iar\MSP\robotcar\main.c:136:6 <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>196:4 - 196:13<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:196:4: UnexposedExpr=offLED0|Z:\msee\iar\MSP\robotcar\main.c:136:6 <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>196:4 - 196:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:196:4: DeclRefExpr=offLED0|Z:\msee\iar\MSP\robotcar\main.c:136:6 (Reference) <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>196:4 - 196:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:199:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>199:3 - 206:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:199:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>199:7 - 199:30<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:199:7: UnexposedExpr=right_line_sensor|Z:\msee\iar\MSP\robotcar\main.c:133:5 <US>c:@right_line_sensor<UE> <DS>right_line_sensor<DE> Extent=<ES>199:7 - 199:24<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:199:7: DeclRefExpr=right_line_sensor|Z:\msee\iar\MSP\robotcar\main.c:133:5 (Reference) <US>c:@right_line_sensor<UE> <DS>right_line_sensor<DE> Extent=<ES>199:7 - 199:24<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:199:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>199:27 - 199:30<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:199:32: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>199:32 - 202:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:200:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>200:4 - 200:19<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:200:4: DeclRefExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:141:17 (Reference) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>200:4 - 200:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:200:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>200:18 - 200:19<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:201:4: CallExpr=onLED6|Z:\msee\iar\MSP\robotcar\main.c:137:6 <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>201:4 - 201:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:201:4: UnexposedExpr=onLED6|Z:\msee\iar\MSP\robotcar\main.c:137:6 <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>201:4 - 201:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:201:4: DeclRefExpr=onLED6|Z:\msee\iar\MSP\robotcar\main.c:137:6 (Reference) <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>201:4 - 201:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:203:8: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>203:8 - 206:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:204:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>204:4 - 204:19<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:204:4: DeclRefExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:141:17 (Reference) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>204:4 - 204:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:204:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>204:18 - 204:19<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:205:4: CallExpr=offLED6|Z:\msee\iar\MSP\robotcar\main.c:138:6 <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>205:4 - 205:13<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:205:4: UnexposedExpr=offLED6|Z:\msee\iar\MSP\robotcar\main.c:138:6 <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>205:4 - 205:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:205:4: DeclRefExpr=offLED6|Z:\msee\iar\MSP\robotcar\main.c:138:6 (Reference) <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>205:4 - 205:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:208:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>208:3 - 214:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:208:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>208:7 - 208:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:208:7: UnexposedExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:141:5 <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>208:7 - 208:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:208:7: DeclRefExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:141:5 (Reference) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>208:7 - 208:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:208:21: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>208:21 - 208:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:208:22: UnexposedExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:141:17 <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>208:22 - 208:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:208:22: DeclRefExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:141:17 (Reference) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>208:22 - 208:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:208:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>208:35 - 214:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:211:4: CallExpr=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:24:6 <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>211:4 - 211:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:211:4: UnexposedExpr=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:24:6 <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>211:4 - 211:20<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:211:4: DeclRefExpr=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:24:6 (Reference) <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>211:4 - 211:20<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:212:4: CallExpr=backwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:27:6 <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>212:4 - 212:24<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:212:4: UnexposedExpr=backwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:27:6 <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>212:4 - 212:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:212:4: DeclRefExpr=backwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:27:6 (Reference) <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>212:4 - 212:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:215:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>215:3 - 220:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:215:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>215:7 - 215:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:215:7: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>215:7 - 215:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:215:8: UnexposedExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:141:5 <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>215:8 - 215:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:215:8: DeclRefExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:141:5 (Reference) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>215:8 - 215:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:215:22: UnexposedExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:141:17 <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>215:22 - 215:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:215:22: DeclRefExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:141:17 (Reference) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>215:22 - 215:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:215:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>215:35 - 220:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:218:4: CallExpr=forwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:26:6 <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>218:4 - 218:23<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:218:4: UnexposedExpr=forwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:26:6 <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>218:4 - 218:21<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:218:4: DeclRefExpr=forwardRightWheel|Z:\msee\iar\MSP\robotcar\main.c:26:6 (Reference) <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>218:4 - 218:21<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:219:4: CallExpr=backwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:25:6 <US>c:@F@backwardLeftWheel<UE> <DS>void backwardLeftWheel(void)<DE> Extent=<ES>219:4 - 219:23<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:219:4: UnexposedExpr=backwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:25:6 <US>c:@F@backwardLeftWheel<UE> <DS>void backwardLeftWheel(void)<DE> Extent=<ES>219:4 - 219:21<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:219:4: DeclRefExpr=backwardLeftWheel|Z:\msee\iar\MSP\robotcar\main.c:25:6 (Reference) <US>c:@F@backwardLeftWheel<UE> <DS>void backwardLeftWheel(void)<DE> Extent=<ES>219:4 - 219:21<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:221:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>221:3 - 225:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:221:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>221:7 - 221:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:221:7: UnexposedExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:141:5 <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>221:7 - 221:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:221:7: DeclRefExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:141:5 (Reference) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>221:7 - 221:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:221:21: UnexposedExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:141:17 <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>221:21 - 221:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:221:21: DeclRefExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:141:17 (Reference) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>221:21 - 221:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:221:34: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>221:34 - 225:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:223:4: CallExpr=forwardWheel|Z:\msee\iar\MSP\robotcar\main.c:28:6 <US>c:@F@forwardWheel<UE> <DS>void forwardWheel(void)<DE> Extent=<ES>223:4 - 223:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:223:4: UnexposedExpr=forwardWheel|Z:\msee\iar\MSP\robotcar\main.c:28:6 <US>c:@F@forwardWheel<UE> <DS>void forwardWheel(void)<DE> Extent=<ES>223:4 - 223:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:223:4: DeclRefExpr=forwardWheel|Z:\msee\iar\MSP\robotcar\main.c:28:6 (Reference) <US>c:@F@forwardWheel<UE> <DS>void forwardWheel(void)<DE> Extent=<ES>223:4 - 223:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:224:4: CallExpr=slow|Z:\msee\iar\MSP\robotcar\main.c:38:6 <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>224:4 - 224:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:224:4: UnexposedExpr=slow|Z:\msee\iar\MSP\robotcar\main.c:38:6 <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>224:4 - 224:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:224:4: DeclRefExpr=slow|Z:\msee\iar\MSP\robotcar\main.c:38:6 (Reference) <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>224:4 - 224:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:228:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>228:3 - 231:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:228:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>228:7 - 228:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:228:7: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>228:7 - 228:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:228:8: UnexposedExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:141:5 <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>228:8 - 228:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:228:8: DeclRefExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:141:5 (Reference) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>228:8 - 228:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:228:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>228:22 - 228:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:228:23: UnexposedExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:141:17 <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>228:23 - 228:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:228:23: DeclRefExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:141:17 (Reference) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>228:23 - 228:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:228:36: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>228:36 - 231:4<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:230:4: CallExpr=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>230:4 - 230:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:230:4: UnexposedExpr=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>230:4 - 230:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\main.c:230:4: DeclRefExpr=turnLeft|Z:\msee\iar\MSP\robotcar\main.c:41:6 (Reference) <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>230:4 - 230:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:1:6: FunctionDecl=startLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:1:6 (Declaration) <US>c:@F@startLeftWheel<UE> <DS>void startLeftWheel(void)<DE> Extent=<ES>1:1 - 1:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:2:6: FunctionDecl=stopLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:2:6 (Declaration) <US>c:@F@stopLeftWheel<UE> <DS>void stopLeftWheel(void)<DE> Extent=<ES>2:1 - 2:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:4:6: FunctionDecl=wait|Z:\msee\iar\MSP\robotcar\utils.h:4:6 (Declaration) <US>c:@F@wait<UE> <DS>void wait(void)<DE> Extent=<ES>4:1 - 4:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:5:6: FunctionDecl=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:5:6 (Declaration) <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>5:1 - 5:24<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:6:6: FunctionDecl=backwardLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:6:6 (Declaration) <US>c:@F@backwardLeftWheel<UE> <DS>void backwardLeftWheel(void)<DE> Extent=<ES>6:1 - 6:25<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:7:6: FunctionDecl=forwardRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:7:6 (Declaration) <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>7:1 - 7:25<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:8:6: FunctionDecl=backwardRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:8:6 (Declaration) <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>8:1 - 8:26<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:9:6: FunctionDecl=forwardWheel|Z:\msee\iar\MSP\robotcar\utils.h:9:6 (Declaration) <US>c:@F@forwardWheel<UE> <DS>void forwardWheel(void)<DE> Extent=<ES>9:1 - 9:20<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:10:6: FunctionDecl=backwardWheel|Z:\msee\iar\MSP\robotcar\utils.h:10:6 (Declaration) <US>c:@F@backwardWheel<UE> <DS>void backwardWheel(void)<DE> Extent=<ES>10:1 - 10:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:12:6: FunctionDecl=turnLeft|Z:\msee\iar\MSP\robotcar\utils.h:12:6 (Declaration) <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>12:1 - 12:16<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:13:6: FunctionDecl=turnRight|Z:\msee\iar\MSP\robotcar\utils.h:13:6 (Declaration) <US>c:@F@turnRight<UE> <DS>void turnRight(void)<DE> Extent=<ES>13:1 - 13:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:14:6: FunctionDecl=turnAround|Z:\msee\iar\MSP\robotcar\utils.h:14:6 (Declaration) <US>c:@F@turnAround<UE> <DS>void turnAround(void)<DE> Extent=<ES>14:1 - 14:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:16:6: FunctionDecl=fullSpeed|Z:\msee\iar\MSP\robotcar\utils.h:16:6 (Declaration) <US>c:@F@fullSpeed<UE> <DS>void fullSpeed(void)<DE> Extent=<ES>16:1 - 16:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:17:6: FunctionDecl=startLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:17:6 (Declaration) <US>c:@F@startLeftWheel<UE> <DS>void startLeftWheel(void)<DE> Extent=<ES>17:1 - 17:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:18:6: FunctionDecl=stopLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:18:6 (Declaration) <US>c:@F@stopLeftWheel<UE> <DS>void stopLeftWheel(void)<DE> Extent=<ES>18:1 - 18:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:19:6: FunctionDecl=startRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:19:6 (Declaration) <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>19:1 - 19:23<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:20:6: FunctionDecl=stopRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:20:6 (Declaration) <US>c:@F@stopRightWheel<UE> <DS>void stopRightWheel(void)<DE> Extent=<ES>20:1 - 20:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:21:6: FunctionDecl=slowLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:21:6 (Declaration) <US>c:@F@slowLeftWheel<UE> <DS>void slowLeftWheel(void)<DE> Extent=<ES>21:1 - 21:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:22:6: FunctionDecl=slowRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:22:6 (Declaration) <US>c:@F@slowRightWheel<UE> <DS>void slowRightWheel(void)<DE> Extent=<ES>22:1 - 22:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:23:6: FunctionDecl=slow|Z:\msee\iar\MSP\robotcar\utils.h:23:6 (Declaration) <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>23:1 - 23:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:24:6: FunctionDecl=stop|Z:\msee\iar\MSP\robotcar\utils.h:24:6 (Declaration) <US>c:@F@stop<UE> <DS>void stop(void)<DE> Extent=<ES>24:1 - 24:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:26:6: FunctionDecl=onLED0|Z:\msee\iar\MSP\robotcar\utils.h:26:6 (Declaration) <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>26:1 - 26:14<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:27:6: FunctionDecl=offLED0|Z:\msee\iar\MSP\robotcar\utils.h:27:6 (Declaration) <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>27:1 - 27:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:28:6: FunctionDecl=onLED6|Z:\msee\iar\MSP\robotcar\utils.h:28:6 (Declaration) <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>28:1 - 28:14<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:29:6: FunctionDecl=offLED6|Z:\msee\iar\MSP\robotcar\utils.h:29:6 (Declaration) <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>29:1 - 29:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:31:6: FunctionDecl=readLineSensor|Z:\msee\iar\MSP\robotcar\utils.h:31:6 (Declaration) <US>c:@F@readLineSensor<UE> <DS>void readLineSensor(void)<DE> Extent=<ES>31:1 - 31:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:33:5: FunctionDecl=touchTargetLeft|Z:\msee\iar\MSP\robotcar\utils.h:33:5 (Declaration) <US>c:@F@touchTargetLeft<UE> <DS>int touchTargetLeft(void)<DE> Extent=<ES>33:1 - 33:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:34:5: FunctionDecl=touchTargetRight|Z:\msee\iar\MSP\robotcar\utils.h:34:5 (Declaration) <US>c:@F@touchTargetRight<UE> <DS>int touchTargetRight(void)<DE> Extent=<ES>34:1 - 34:23<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:36:5: FunctionDecl=touchRoadLeft|Z:\msee\iar\MSP\robotcar\utils.h:36:5 (Declaration) <US>c:@F@touchRoadLeft<UE> <DS>int touchRoadLeft(void)<DE> Extent=<ES>36:1 - 36:20<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:37:5: FunctionDecl=touchRoadRight|Z:\msee\iar\MSP\robotcar\utils.h:37:5 (Declaration) <US>c:@F@touchRoadRight<UE> <DS>int touchRoadRight(void)<DE> Extent=<ES>37:1 - 37:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.h:38:6: FunctionDecl=targetReached|Z:\msee\iar\MSP\robotcar\utils.h:38:6 (Declaration) <US>c:@F@targetReached<UE> <DS>void targetReached(void)<DE> Extent=<ES>38:1 - 38:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:6:5: VarDecl=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:6:5 (Declaration) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>6:1 - 6:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:6:17: VarDecl=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:6:17 (Declaration) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>6:1 - 6:28<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:8:8: StructDecl=map|Z:\msee\iar\MSP\robotcar\main.c:8:8 (Definition) <US>c:@S@map<UE> <DS>map<DE> Extent=<ES>8:1 - 11:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:9:6: FieldDecl=posTurn|Z:\msee\iar\MSP\robotcar\main.c:9:6 (Definition) <US>c:@S@map@FI@posTurn<UE> <DS>posTurn<DE> Extent=<ES>9:2 - 9:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:10:7: FieldDecl=arrTurn|Z:\msee\iar\MSP\robotcar\main.c:10:7 (Definition) <US>c:@S@map@FI@arrTurn<UE> <DS>arrTurn<DE> Extent=<ES>10:2 - 10:14<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:17:12: VarDecl=path|Z:\msee\iar\MSP\robotcar\main.c:17:12 (Declaration) <US>c:@path<UE> <DS>path<DE> Extent=<ES>17:1 - 17:16<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:17:8: TypeRef=struct map|Z:\msee\iar\MSP\robotcar\main.c:8:8 (Reference) <US>c:@S@map<UE> <DS>map<DE> Extent=<ES>17:8 - 17:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:19:5: VarDecl=arrTurnToTest|Z:\msee\iar\MSP\robotcar\main.c:19:5 (Definition) <US>c:@arrTurnToTest<UE> <DS>arrTurnToTest<DE> Extent=<ES>19:1 - 19:39<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:19:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>19:19 - 19:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:19:25: InitListExpr= <US><UE> <DS><DE> Extent=<ES>19:25 - 19:39<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:19:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>19:26 - 19:27<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:19:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>19:29 - 19:30<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:19:32: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>19:32 - 19:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:19:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>19:33 - 19:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:19:36: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>19:36 - 19:38<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:19:37: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>19:37 - 19:38<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:20:6: FunctionDecl=setPathToTest|Z:\msee\iar\MSP\robotcar\main.c:20:6 (Definition) <US>c:@F@setPathToTest<UE> <DS>void setPathToTest(void)<DE> Extent=<ES>20:1 - 23:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:20:21: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>20:21 - 23:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:21:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>21:2 - 21:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:21:7: MemberRefExpr=posTurn|Z:\msee\iar\MSP\robotcar\main.c:9:6 (Reference) <US>c:@S@map@FI@posTurn<UE> <DS>posTurn<DE> Extent=<ES>21:2 - 21:14<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:21:2: DeclRefExpr=path|Z:\msee\iar\MSP\robotcar\main.c:17:12 (Reference) <US>c:@path<UE> <DS>path<DE> Extent=<ES>21:2 - 21:6<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:21:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>21:17 - 21:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:22:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>22:2 - 22:30<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:22:7: MemberRefExpr=arrTurn|Z:\msee\iar\MSP\robotcar\main.c:10:7 (Reference) <US>c:@S@map@FI@arrTurn<UE> <DS>arrTurn<DE> Extent=<ES>22:2 - 22:14<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:22:2: DeclRefExpr=path|Z:\msee\iar\MSP\robotcar\main.c:17:12 (Reference) <US>c:@path<UE> <DS>path<DE> Extent=<ES>22:2 - 22:6<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:22:17: UnexposedExpr=arrTurnToTest|Z:\msee\iar\MSP\robotcar\main.c:19:5 <US>c:@arrTurnToTest<UE> <DS>arrTurnToTest<DE> Extent=<ES>22:17 - 22:30<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:22:17: DeclRefExpr=arrTurnToTest|Z:\msee\iar\MSP\robotcar\main.c:19:5 (Reference) <US>c:@arrTurnToTest<UE> <DS>arrTurnToTest<DE> Extent=<ES>22:17 - 22:30<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:28:5: VarDecl=onStraigt|Z:\msee\iar\MSP\robotcar\main.c:28:5 (Definition) <US>c:@onStraigt<UE> <DS>onStraigt<DE> Extent=<ES>28:1 - 28:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:28:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:17 - 28:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:30:6: FunctionDecl=goStaight|Z:\msee\iar\MSP\robotcar\main.c:30:6 (Definition) <US>c:@F@goStaight<UE> <DS>void goStaight(void)<DE> Extent=<ES>30:1 - 34:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:30:17: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>30:17 - 34:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:31:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>31:2 - 31:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:31:2: DeclRefExpr=onStraigt|Z:\msee\iar\MSP\robotcar\main.c:28:5 (Reference) <US>c:@onStraigt<UE> <DS>onStraigt<DE> Extent=<ES>31:2 - 31:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:31:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:14 - 31:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:32:2: CallExpr=startLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:17:6 <US>c:@F@startLeftWheel<UE> <DS>void startLeftWheel(void)<DE> Extent=<ES>32:2 - 32:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:32:2: UnexposedExpr=startLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:17:6 <US>c:@F@startLeftWheel<UE> <DS>void startLeftWheel(void)<DE> Extent=<ES>32:2 - 32:16<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:32:2: DeclRefExpr=startLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:17:6 (Reference) <US>c:@F@startLeftWheel<UE> <DS>void startLeftWheel(void)<DE> Extent=<ES>32:2 - 32:16<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:33:2: CallExpr=startRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:19:6 <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>33:2 - 33:19<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:33:2: UnexposedExpr=startRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:19:6 <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>33:2 - 33:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:33:2: DeclRefExpr=startRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:19:6 (Reference) <US>c:@F@startRightWheel<UE> <DS>void startRightWheel(void)<DE> Extent=<ES>33:2 - 33:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:35:6: FunctionDecl=goStaightIterate|Z:\msee\iar\MSP\robotcar\main.c:35:6 (Definition) <US>c:@F@goStaightIterate<UE> <DS>void goStaightIterate(void)<DE> Extent=<ES>35:1 - 52:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:35:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>35:24 - 52:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:37:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>37:2 - 37:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:37:2: DeclRefExpr=onStraigt|Z:\msee\iar\MSP\robotcar\main.c:28:5 (Reference) <US>c:@onStraigt<UE> <DS>onStraigt<DE> Extent=<ES>37:2 - 37:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:37:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>37:14 - 37:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:39:2: SwitchStmt= <US><UE> <DS><DE> Extent=<ES>39:2 - 49:3<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:39:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>39:10 - 39:36<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:39:10: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>39:10 - 39:36<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:39:15: UnexposedExpr=arrTurn|Z:\msee\iar\MSP\robotcar\main.c:10:7 <US>c:@S@map@FI@arrTurn<UE> <DS>arrTurn<DE> Extent=<ES>39:10 - 39:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:39:15: MemberRefExpr=arrTurn|Z:\msee\iar\MSP\robotcar\main.c:10:7 (Reference) <US>c:@S@map@FI@arrTurn<UE> <DS>arrTurn<DE> Extent=<ES>39:10 - 39:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:39:10: DeclRefExpr=path|Z:\msee\iar\MSP\robotcar\main.c:17:12 (Reference) <US>c:@path<UE> <DS>path<DE> Extent=<ES>39:10 - 39:14<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:39:28: UnexposedExpr=posTurn|Z:\msee\iar\MSP\robotcar\main.c:9:6 <US>c:@S@map@FI@posTurn<UE> <DS>posTurn<DE> Extent=<ES>39:23 - 39:35<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:39:28: MemberRefExpr=posTurn|Z:\msee\iar\MSP\robotcar\main.c:9:6 (Reference) <US>c:@S@map@FI@posTurn<UE> <DS>posTurn<DE> Extent=<ES>39:23 - 39:35<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:39:23: DeclRefExpr=path|Z:\msee\iar\MSP\robotcar\main.c:17:12 (Reference) <US>c:@path<UE> <DS>path<DE> Extent=<ES>39:23 - 39:27<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:39:38: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>39:38 - 49:3<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:40:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>40:2 - 41:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:40:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>40:7 - 40:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:41:3: CallExpr=turnLeft|Z:\msee\iar\MSP\robotcar\utils.h:12:6 <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>41:3 - 41:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:41:3: UnexposedExpr=turnLeft|Z:\msee\iar\MSP\robotcar\utils.h:12:6 <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>41:3 - 41:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:41:3: DeclRefExpr=turnLeft|Z:\msee\iar\MSP\robotcar\utils.h:12:6 (Reference) <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>41:3 - 41:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:42:3: BreakStmt= <US><UE> <DS><DE> Extent=<ES>42:3 - 42:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:43:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>43:2 - 44:14<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:43:7: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>43:7 - 43:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:43:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>43:8 - 43:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:44:3: CallExpr=turnRight|Z:\msee\iar\MSP\robotcar\utils.h:13:6 <US>c:@F@turnRight<UE> <DS>void turnRight(void)<DE> Extent=<ES>44:3 - 44:14<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:44:3: UnexposedExpr=turnRight|Z:\msee\iar\MSP\robotcar\utils.h:13:6 <US>c:@F@turnRight<UE> <DS>void turnRight(void)<DE> Extent=<ES>44:3 - 44:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:44:3: DeclRefExpr=turnRight|Z:\msee\iar\MSP\robotcar\utils.h:13:6 (Reference) <US>c:@F@turnRight<UE> <DS>void turnRight(void)<DE> Extent=<ES>44:3 - 44:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:45:3: BreakStmt= <US><UE> <DS><DE> Extent=<ES>45:3 - 45:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:46:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>46:2 - 47:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:46:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>46:7 - 46:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:47:3: CallExpr=turnAround|Z:\msee\iar\MSP\robotcar\utils.h:14:6 <US>c:@F@turnAround<UE> <DS>void turnAround(void)<DE> Extent=<ES>47:3 - 47:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:47:3: UnexposedExpr=turnAround|Z:\msee\iar\MSP\robotcar\utils.h:14:6 <US>c:@F@turnAround<UE> <DS>void turnAround(void)<DE> Extent=<ES>47:3 - 47:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:47:3: DeclRefExpr=turnAround|Z:\msee\iar\MSP\robotcar\utils.h:14:6 (Reference) <US>c:@F@turnAround<UE> <DS>void turnAround(void)<DE> Extent=<ES>47:3 - 47:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:48:3: BreakStmt= <US><UE> <DS><DE> Extent=<ES>48:3 - 48:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:51:2: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>51:2 - 51:16<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:51:7: MemberRefExpr=posTurn|Z:\msee\iar\MSP\robotcar\main.c:9:6 (Reference) <US>c:@S@map@FI@posTurn<UE> <DS>posTurn<DE> Extent=<ES>51:2 - 51:14<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:51:2: DeclRefExpr=path|Z:\msee\iar\MSP\robotcar\main.c:17:12 (Reference) <US>c:@path<UE> <DS>path<DE> Extent=<ES>51:2 - 51:6<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:53:6: FunctionDecl=route|Z:\msee\iar\MSP\robotcar\main.c:53:6 (Definition) <US>c:@F@route<UE> <DS>void route(void)<DE> Extent=<ES>53:1 - 54:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:53:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>53:13 - 54:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:56:6: FunctionDecl=routeToBank|Z:\msee\iar\MSP\robotcar\main.c:56:6 (Definition) <US>c:@F@routeToBank<UE> <DS>void routeToBank(void)<DE> Extent=<ES>56:1 - 58:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:56:19: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>56:19 - 58:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:57:2: CallExpr=setPathToTest|Z:\msee\iar\MSP\robotcar\main.c:20:6 <US>c:@F@setPathToTest<UE> <DS>void setPathToTest(void)<DE> Extent=<ES>57:2 - 57:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:57:2: UnexposedExpr=setPathToTest|Z:\msee\iar\MSP\robotcar\main.c:20:6 <US>c:@F@setPathToTest<UE> <DS>void setPathToTest(void)<DE> Extent=<ES>57:2 - 57:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:57:2: DeclRefExpr=setPathToTest|Z:\msee\iar\MSP\robotcar\main.c:20:6 (Reference) <US>c:@F@setPathToTest<UE> <DS>void setPathToTest(void)<DE> Extent=<ES>57:2 - 57:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:61:6: FunctionDecl=initDistanceSensor|Z:\msee\iar\MSP\robotcar\main.c:61:6 (Definition) <US>c:@F@initDistanceSensor<UE> <DS>void initDistanceSensor(void)<DE> Extent=<ES>61:1 - 70:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:61:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>61:26 - 70:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:63:2: CallExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>63:2 - 63:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:63:2: UnexposedExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>63:2 - 63:20<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:63:2: DeclRefExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>63:2 - 63:20<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:74:18: FunctionDecl=Port_2|Z:\msee\iar\MSP\robotcar\main.c:74:18 (Definition) <US>c:@F@Port_2<UE> <DS>void Port_2(void)<DE> Extent=<ES>74:13 - 79:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:75:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>75:1 - 79:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:76:2: CallExpr=route|Z:\msee\iar\MSP\robotcar\main.c:53:6 <US>c:@F@route<UE> <DS>void route(void)<DE> Extent=<ES>76:2 - 76:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:76:2: UnexposedExpr=route|Z:\msee\iar\MSP\robotcar\main.c:53:6 <US>c:@F@route<UE> <DS>void route(void)<DE> Extent=<ES>76:2 - 76:7<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:76:2: DeclRefExpr=route|Z:\msee\iar\MSP\robotcar\main.c:53:6 (Reference) <US>c:@F@route<UE> <DS>void route(void)<DE> Extent=<ES>76:2 - 76:7<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:81:6: FunctionDecl=initTA|Z:\msee\iar\MSP\robotcar\main.c:81:6 (Definition) <US>c:@F@initTA<UE> <DS>void initTA(void)<DE> Extent=<ES>81:1 - 89:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:81:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>81:14 - 89:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:91:6: FunctionDecl=main|Z:\msee\iar\MSP\robotcar\main.c:91:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>91:1 - 183:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:92:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>92:1 - 183:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:95:2: CallExpr=initTA|Z:\msee\iar\MSP\robotcar\main.c:81:6 <US>c:@F@initTA<UE> <DS>void initTA(void)<DE> Extent=<ES>95:2 - 95:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:95:2: UnexposedExpr=initTA|Z:\msee\iar\MSP\robotcar\main.c:81:6 <US>c:@F@initTA<UE> <DS>void initTA(void)<DE> Extent=<ES>95:2 - 95:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:95:2: DeclRefExpr=initTA|Z:\msee\iar\MSP\robotcar\main.c:81:6 (Reference) <US>c:@F@initTA<UE> <DS>void initTA(void)<DE> Extent=<ES>95:2 - 95:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:96:2: CallExpr=initDistanceSensor|Z:\msee\iar\MSP\robotcar\main.c:61:6 <US>c:@F@initDistanceSensor<UE> <DS>void initDistanceSensor(void)<DE> Extent=<ES>96:2 - 96:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:96:2: UnexposedExpr=initDistanceSensor|Z:\msee\iar\MSP\robotcar\main.c:61:6 <US>c:@F@initDistanceSensor<UE> <DS>void initDistanceSensor(void)<DE> Extent=<ES>96:2 - 96:20<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:96:2: DeclRefExpr=initDistanceSensor|Z:\msee\iar\MSP\robotcar\main.c:61:6 (Reference) <US>c:@F@initDistanceSensor<UE> <DS>void initDistanceSensor(void)<DE> Extent=<ES>96:2 - 96:20<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:105:2: CallExpr=wait|Z:\msee\iar\MSP\robotcar\utils.h:4:6 <US>c:@F@wait<UE> <DS>void wait(void)<DE> Extent=<ES>105:2 - 105:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:105:2: UnexposedExpr=wait|Z:\msee\iar\MSP\robotcar\utils.h:4:6 <US>c:@F@wait<UE> <DS>void wait(void)<DE> Extent=<ES>105:2 - 105:6<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:105:2: DeclRefExpr=wait|Z:\msee\iar\MSP\robotcar\utils.h:4:6 (Reference) <US>c:@F@wait<UE> <DS>void wait(void)<DE> Extent=<ES>105:2 - 105:6<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:112:2: WhileStmt= <US><UE> <DS><DE> Extent=<ES>112:2 - 182:3<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:112:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>112:8 - 112:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:112:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>112:10 - 182:3<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:116:3: CallExpr=readLineSensor|Z:\msee\iar\MSP\robotcar\utils.h:31:6 <US>c:@F@readLineSensor<UE> <DS>void readLineSensor(void)<DE> Extent=<ES>116:3 - 116:19<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:116:3: UnexposedExpr=readLineSensor|Z:\msee\iar\MSP\robotcar\utils.h:31:6 <US>c:@F@readLineSensor<UE> <DS>void readLineSensor(void)<DE> Extent=<ES>116:3 - 116:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:116:3: DeclRefExpr=readLineSensor|Z:\msee\iar\MSP\robotcar\utils.h:31:6 (Reference) <US>c:@F@readLineSensor<UE> <DS>void readLineSensor(void)<DE> Extent=<ES>116:3 - 116:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:117:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>117:3 - 119:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:117:7: CallExpr=touchTargetLeft|Z:\msee\iar\MSP\robotcar\utils.h:33:5 <US>c:@F@touchTargetLeft<UE> <DS>int touchTargetLeft(void)<DE> Extent=<ES>117:7 - 117:24<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:117:7: UnexposedExpr=touchTargetLeft|Z:\msee\iar\MSP\robotcar\utils.h:33:5 <US>c:@F@touchTargetLeft<UE> <DS>int touchTargetLeft(void)<DE> Extent=<ES>117:7 - 117:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:117:7: DeclRefExpr=touchTargetLeft|Z:\msee\iar\MSP\robotcar\utils.h:33:5 (Reference) <US>c:@F@touchTargetLeft<UE> <DS>int touchTargetLeft(void)<DE> Extent=<ES>117:7 - 117:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:117:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>117:26 - 119:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:118:4: CallExpr=targetReached|Z:\msee\iar\MSP\robotcar\utils.h:38:6 <US>c:@F@targetReached<UE> <DS>void targetReached(void)<DE> Extent=<ES>118:4 - 118:19<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:118:4: UnexposedExpr=targetReached|Z:\msee\iar\MSP\robotcar\utils.h:38:6 <US>c:@F@targetReached<UE> <DS>void targetReached(void)<DE> Extent=<ES>118:4 - 118:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:118:4: DeclRefExpr=targetReached|Z:\msee\iar\MSP\robotcar\utils.h:38:6 (Reference) <US>c:@F@targetReached<UE> <DS>void targetReached(void)<DE> Extent=<ES>118:4 - 118:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:127:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>127:3 - 135:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:127:7: CallExpr=touchRoadLeft|Z:\msee\iar\MSP\robotcar\utils.h:36:5 <US>c:@F@touchRoadLeft<UE> <DS>int touchRoadLeft(void)<DE> Extent=<ES>127:7 - 127:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:127:7: UnexposedExpr=touchRoadLeft|Z:\msee\iar\MSP\robotcar\utils.h:36:5 <US>c:@F@touchRoadLeft<UE> <DS>int touchRoadLeft(void)<DE> Extent=<ES>127:7 - 127:20<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:127:7: DeclRefExpr=touchRoadLeft|Z:\msee\iar\MSP\robotcar\utils.h:36:5 (Reference) <US>c:@F@touchRoadLeft<UE> <DS>int touchRoadLeft(void)<DE> Extent=<ES>127:7 - 127:20<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:127:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>127:24 - 131:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:129:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>129:4 - 129:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:129:4: DeclRefExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:6:5 (Reference) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>129:4 - 129:14<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:129:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>129:17 - 129:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:130:4: CallExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.h:26:6 <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>130:4 - 130:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:130:4: UnexposedExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.h:26:6 <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>130:4 - 130:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:130:4: DeclRefExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.h:26:6 (Reference) <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>130:4 - 130:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:132:8: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>132:8 - 135:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:133:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>133:4 - 133:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:133:4: DeclRefExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:6:5 (Reference) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>133:4 - 133:14<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:133:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>133:17 - 133:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:134:4: CallExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.h:27:6 <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>134:4 - 134:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:134:4: UnexposedExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.h:27:6 <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>134:4 - 134:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:134:4: DeclRefExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.h:27:6 (Reference) <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>134:4 - 134:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:137:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>137:3 - 144:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:137:7: CallExpr=touchRoadRight|Z:\msee\iar\MSP\robotcar\utils.h:37:5 <US>c:@F@touchRoadRight<UE> <DS>int touchRoadRight(void)<DE> Extent=<ES>137:7 - 137:23<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:137:7: UnexposedExpr=touchRoadRight|Z:\msee\iar\MSP\robotcar\utils.h:37:5 <US>c:@F@touchRoadRight<UE> <DS>int touchRoadRight(void)<DE> Extent=<ES>137:7 - 137:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:137:7: DeclRefExpr=touchRoadRight|Z:\msee\iar\MSP\robotcar\utils.h:37:5 (Reference) <US>c:@F@touchRoadRight<UE> <DS>int touchRoadRight(void)<DE> Extent=<ES>137:7 - 137:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:137:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>137:25 - 140:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:138:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>138:4 - 138:19<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:138:4: DeclRefExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:6:17 (Reference) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>138:4 - 138:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:138:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>138:18 - 138:19<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:139:4: CallExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.h:28:6 <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>139:4 - 139:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:139:4: UnexposedExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.h:28:6 <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>139:4 - 139:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:139:4: DeclRefExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.h:28:6 (Reference) <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>139:4 - 139:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:141:8: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>141:8 - 144:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:142:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>142:4 - 142:19<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:142:4: DeclRefExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:6:17 (Reference) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>142:4 - 142:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:142:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>142:18 - 142:19<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:143:4: CallExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.h:29:6 <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>143:4 - 143:13<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:143:4: UnexposedExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.h:29:6 <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>143:4 - 143:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:143:4: DeclRefExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.h:29:6 (Reference) <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>143:4 - 143:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:146:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>146:3 - 151:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:146:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>146:7 - 146:33<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:146:7: UnexposedExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:6:5 <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>146:7 - 146:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:146:7: DeclRefExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:6:5 (Reference) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>146:7 - 146:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:146:21: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>146:21 - 146:33<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:146:22: UnexposedExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:6:17 <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>146:22 - 146:33<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:146:22: DeclRefExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:6:17 (Reference) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>146:22 - 146:33<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:146:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>146:35 - 151:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:148:4: CallExpr=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:5:6 <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>148:4 - 148:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:148:4: UnexposedExpr=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:5:6 <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>148:4 - 148:20<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:148:4: DeclRefExpr=forwardLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:5:6 (Reference) <US>c:@F@forwardLeftWheel<UE> <DS>void forwardLeftWheel(void)<DE> Extent=<ES>148:4 - 148:20<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:149:4: CallExpr=backwardRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:8:6 <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>149:4 - 149:24<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:149:4: UnexposedExpr=backwardRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:8:6 <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>149:4 - 149:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:149:4: DeclRefExpr=backwardRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:8:6 (Reference) <US>c:@F@backwardRightWheel<UE> <DS>void backwardRightWheel(void)<DE> Extent=<ES>149:4 - 149:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:150:4: CallExpr=slow|Z:\msee\iar\MSP\robotcar\utils.h:23:6 <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>150:4 - 150:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:150:4: UnexposedExpr=slow|Z:\msee\iar\MSP\robotcar\utils.h:23:6 <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>150:4 - 150:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:150:4: DeclRefExpr=slow|Z:\msee\iar\MSP\robotcar\utils.h:23:6 (Reference) <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>150:4 - 150:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:152:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>152:3 - 157:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:152:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>152:7 - 152:33<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:152:7: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>152:7 - 152:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:152:8: UnexposedExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:6:5 <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>152:8 - 152:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:152:8: DeclRefExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:6:5 (Reference) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>152:8 - 152:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:152:22: UnexposedExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:6:17 <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>152:22 - 152:33<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:152:22: DeclRefExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:6:17 (Reference) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>152:22 - 152:33<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:152:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>152:35 - 157:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:154:4: CallExpr=forwardRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:7:6 <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>154:4 - 154:23<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:154:4: UnexposedExpr=forwardRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:7:6 <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>154:4 - 154:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:154:4: DeclRefExpr=forwardRightWheel|Z:\msee\iar\MSP\robotcar\utils.h:7:6 (Reference) <US>c:@F@forwardRightWheel<UE> <DS>void forwardRightWheel(void)<DE> Extent=<ES>154:4 - 154:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:155:4: CallExpr=backwardLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:6:6 <US>c:@F@backwardLeftWheel<UE> <DS>void backwardLeftWheel(void)<DE> Extent=<ES>155:4 - 155:23<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:155:4: UnexposedExpr=backwardLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:6:6 <US>c:@F@backwardLeftWheel<UE> <DS>void backwardLeftWheel(void)<DE> Extent=<ES>155:4 - 155:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:155:4: DeclRefExpr=backwardLeftWheel|Z:\msee\iar\MSP\robotcar\utils.h:6:6 (Reference) <US>c:@F@backwardLeftWheel<UE> <DS>void backwardLeftWheel(void)<DE> Extent=<ES>155:4 - 155:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:156:4: CallExpr=slow|Z:\msee\iar\MSP\robotcar\utils.h:23:6 <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>156:4 - 156:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:156:4: UnexposedExpr=slow|Z:\msee\iar\MSP\robotcar\utils.h:23:6 <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>156:4 - 156:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:156:4: DeclRefExpr=slow|Z:\msee\iar\MSP\robotcar\utils.h:23:6 (Reference) <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>156:4 - 156:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:158:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>158:3 - 162:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:158:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>158:7 - 158:32<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:158:7: UnexposedExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:6:5 <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>158:7 - 158:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:158:7: DeclRefExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:6:5 (Reference) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>158:7 - 158:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:158:21: UnexposedExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:6:17 <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>158:21 - 158:32<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:158:21: DeclRefExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:6:17 (Reference) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>158:21 - 158:32<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:158:34: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>158:34 - 162:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:160:4: CallExpr=forwardWheel|Z:\msee\iar\MSP\robotcar\utils.h:9:6 <US>c:@F@forwardWheel<UE> <DS>void forwardWheel(void)<DE> Extent=<ES>160:4 - 160:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:160:4: UnexposedExpr=forwardWheel|Z:\msee\iar\MSP\robotcar\utils.h:9:6 <US>c:@F@forwardWheel<UE> <DS>void forwardWheel(void)<DE> Extent=<ES>160:4 - 160:16<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:160:4: DeclRefExpr=forwardWheel|Z:\msee\iar\MSP\robotcar\utils.h:9:6 (Reference) <US>c:@F@forwardWheel<UE> <DS>void forwardWheel(void)<DE> Extent=<ES>160:4 - 160:16<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:161:4: CallExpr=slow|Z:\msee\iar\MSP\robotcar\utils.h:23:6 <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>161:4 - 161:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:161:4: UnexposedExpr=slow|Z:\msee\iar\MSP\robotcar\utils.h:23:6 <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>161:4 - 161:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:161:4: DeclRefExpr=slow|Z:\msee\iar\MSP\robotcar\utils.h:23:6 (Reference) <US>c:@F@slow<UE> <DS>void slow(void)<DE> Extent=<ES>161:4 - 161:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:165:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>165:3 - 180:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:165:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>165:7 - 165:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:165:7: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>165:7 - 165:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:165:8: UnexposedExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:6:5 <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>165:8 - 165:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:165:8: DeclRefExpr=leftSensor|Z:\msee\iar\MSP\robotcar\main.c:6:5 (Reference) <US>c:@leftSensor<UE> <DS>leftSensor<DE> Extent=<ES>165:8 - 165:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:165:22: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>165:22 - 165:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:165:23: UnexposedExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:6:17 <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>165:23 - 165:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:165:23: DeclRefExpr=rightSensor|Z:\msee\iar\MSP\robotcar\main.c:6:17 (Reference) <US>c:@rightSensor<UE> <DS>rightSensor<DE> Extent=<ES>165:23 - 165:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:165:36: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>165:36 - 180:4<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:179:4: CallExpr=turnLeft|Z:\msee\iar\MSP\robotcar\utils.h:12:6 <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>179:4 - 179:14<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:179:4: UnexposedExpr=turnLeft|Z:\msee\iar\MSP\robotcar\utils.h:12:6 <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>179:4 - 179:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\main.c:179:4: DeclRefExpr=turnLeft|Z:\msee\iar\MSP\robotcar\utils.h:12:6 (Reference) <US>c:@F@turnLeft<UE> <DS>void turnLeft(void)<DE> Extent=<ES>179:4 - 179:12<EE>
