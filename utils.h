@@ -1,6 +1,7 @@
 void startLeftWheel();
 void stopLeftWheel();
 
+void delay(long);
 void wait();
 void forwardLeftWheel() ;
 void backwardLeftWheel() ;
@@ -36,4 +37,4 @@ int touchTargetRight();
 int touchRoadLeft();
 int touchRoadRight();
 void targetReached();
-
+void debugWithLED(int);

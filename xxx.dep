@@ -75,6 +75,10 @@
       <name>$PROJ_DIR$\main.c</name>
       <outputs>
         <tool>
+          <name>ICC430</name>
+          <file> 4</file>
+        </tool>
+        <tool>
           <name>BICOMP</name>
           <file> 0</file>
         </tool>
@@ -82,6 +86,10 @@
       <inputs>
         <tool>
           <name>ICC430</name>
+          <file> 23 10 5 14 6 8 12 13 3 26 11 7 19 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
           <file> 23 10 5 14 6 8 12 13 3 26 11 7 19 16</file>
         </tool>
       </inputs>
@@ -118,10 +126,6 @@
         </tool>
       </inputs>
     </file>
-    <forcedrebuild>
-      <name>[MULTI_TOOL]</name>
-      <tool>XLINK</tool>
-    </forcedrebuild>
   </configuration>
   <configuration>
     <name>Release</name>

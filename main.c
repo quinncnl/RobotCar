@@ -4,78 +4,46 @@
 #include  "utils.h"
 
 int leftSensor, rightSensor;
+int timing = 0;
+int timeCounterOn = 0;
 
 struct map {
 	int posTurn;
 	int *arrTurn;
 };
 
-// 1: right
 // -1: left
+// 1: right
 // 0: nothing
 
 struct map path;
 
-int arrTurnToTest[10] = {1, 1, -1, -1};
-void setPathToTest(){
+int arrTurnToBoulangerie[10] = {1, 1, -1, -1};
+void routeToBoulangerie(){
 	path.posTurn = 3;
-	path.arrTurn = arrTurnToTest;
+	path.arrTurn = arrTurnToBoulangerie;
 }
 
-
-// 0: straight
-// 1: other
-int onStraigt = 0;
-
-void goStaight(){
-	onStraigt = 1;
-	startLeftWheel();
-	startRightWheel();
-}
-void goStaightIterate(){
-
-	onStraigt = 0;
-
-	switch (path.arrTurn[path.posTurn]) {
-	case 1:
-		turnLeft();
-		break;
-	case -1:
-		turnRight();
-		break;
-	case 2:
-		turnAround();
-		break;
-	}
-
-	path.posTurn--;
-}
-void route(){
-}
-
+int arrTurnToBanque[10] = {0, 1, 1, -1, -1, 0};
 void routeToBank(){
-	setPathToTest();
+	path.posTurn = 5;
+	path.arrTurn = arrTurnToBanque;
 }
-
-
-void initDistanceSensor(){
-
-	__enable_interrupt();
-
-	P2DIR &=~ (BIT0 + BIT3); // input
-	P2IE |= (BIT0);
-  
-	P2IES |= (BIT0);
-	P2IFG &=~ (BIT0);
-}
-
 
 #pragma vector=PORT2_VECTOR
 __interrupt void Port_2(void)
 {
-	route();
+
 	//	P1OUT ^= BIT6;
 	P2IFG &=~ (BIT0);
+}
+
+void startTimeCounter(){
+	timeCounterOn = 1;
+	timing = 0;
+}
+void stopTimeCounter(){
+	timeCounterOn = 0;
 }
 
 void initTA(){
@@ -93,7 +61,6 @@ void main(void)
 	WDTCTL = WDTPW + WDTHOLD;
    
 	initTA();
-	initDistanceSensor();
      
 	P2DIR |= BIT1 + BIT5;
 
@@ -104,7 +71,7 @@ void main(void)
 
 	wait();
 
-	// routeToBank();
+	routeToBank();
 
 	//goStaight();
 	//forwardWheel();
@@ -114,6 +81,7 @@ void main(void)
 		//front_sensor = read_adc(4);
 	
 		readLineSensor();
+
 		if (touchTargetLeft())	{
 			targetReached();
 		}
@@ -127,20 +95,20 @@ void main(void)
 		if (touchRoadLeft()) {
 			// not touching line
 			leftSensor = 1;
-			onLED0();
+			//onLED0();
 		}
 		else {
 			leftSensor = 0;
-			offLED0();
+			//offLED0();
 		}
 	
 		if (touchRoadRight()) {
 			rightSensor = 1;
-			onLED6();
+			//onLED6();
 		}
 		else {
 			rightSensor = 0;
-			offLED6();
+			//offLED6();
 		}
 
 		if (leftSensor && !rightSensor) {
@@ -161,10 +129,19 @@ void main(void)
 			slow();
 		}
 
+		if (timeCounterOn) timing++;
+		if (timeCounterOn && timing > 59999) {
+			// passed a corner
+			stopTimeCounter();
+			stop();
+			delay(30000);
+			slow();
+		}
+
 		// Touching both line means it meets a turn.
 		if (!leftSensor && !rightSensor) {
-			/*
-			if (path.posTurn >= 0) {
+
+			//if (timeCounterOn == 0 && path.posTurn >= 0) {
 				switch (path.arrTurn[path.posTurn]) {
 					case -1:
 					turnLeft();
@@ -172,12 +149,25 @@ void main(void)
 					case 1:
 					turnRight();
 					break;
+					case 0:
+
+					stop();
+					delay(50000);
+					forwardWheel();
+					fullSpeed();
+					delay(9000);
+
 				}
 				path.posTurn--;
-			}
-			*/
-			turnLeft();
+	
+				forwardWheel();
+				slow();
+			
+				debugWithLED(path.posTurn);
+				startTimeCounter();
+			//}
+			
 		}
-
+		debugWithLED(path.posTurn);
 	}
 }
