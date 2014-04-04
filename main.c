@@ -2,10 +2,10 @@
 #include  <stdlib.h>
 #include  "adc.h"
 #include  "utils.h"
+#include  "drive.h"
+#include  "main.h"
 
 int leftSensor, rightSensor;
-int timing = 0;
-int timeCounterOn = 0;
 
 struct map {
 	int posTurn;
@@ -20,42 +20,28 @@ int arrTurnToBoulangerie[10] = {1, 1, -1, -1};
 void routeToBoulangerie(){
 	path.posTurn = 3;
 	path.arrTurn = arrTurnToBoulangerie;
+	mainLoop();
 }
 
 int arrTurnToBanque[10] = {0, 1, 1, -1, -1, 0};
 void routeToBank(){
 	path.posTurn = 5;
 	path.arrTurn = arrTurnToBanque;
+	mainLoop();
 }
 
 int arrTurnToPoste[10] = {0, 0, 1, -1, 1, -1, 0, 0};
 void routeToPoste(){
 	path.posTurn = 7;
 	path.arrTurn = arrTurnToPoste;
+	mainLoop();
 }
 
-int arrTurnToHospital[10] = {1, 0, -1, -1, 1, 0, -1, 0, 0};
+int arrTurnToHospital[10] = {1, 0, -1, -1, 1, 1, 0, -1, 0, 0};
 void routeToHospital(){
-	path.posTurn = 8;
+	path.posTurn = 9;
 	path.arrTurn = arrTurnToHospital;
-}
-
-#pragma vector=PORT2_VECTOR
-__interrupt void Port_2(void)
-{
-
-	//	P1OUT ^= BIT6;
-	P2IFG &=~ (BIT0);
-}
-
-void initTA(){
-	TA1CTL = TASSEL_2 + MC_1;
-	TA1CCR0 = 1000;
-	TA1CCTL1 = OUTMOD_7;
-	TA1CCTL2 = OUTMOD_7;
-
-	P2DIR |= BIT2 + BIT4;
-	P2SEL |= BIT2 + BIT4;
+	mainLoop();
 }
 
 void main(void)
@@ -63,17 +49,15 @@ void main(void)
 	WDTCTL = WDTPW + WDTHOLD;
    
 	initTA();
-     
-	P2DIR |= BIT1 + BIT5;
+ 	initPins();
 
-	P1DIR |= BIT0;
-	P1DIR &= ~ BIT5;
+    _BIS_SR(CPUOFF + GIE);
 
-	P1DIR |= BIT6;
+	while(1);
+}
 
+void mainLoop(){
 	wait();
-
-	routeToBoulangerie();
 
 	while(1){
 
@@ -125,15 +109,6 @@ void main(void)
 			slow();
 		}
 
-		if (timeCounterOn) timing++;
-		if (timeCounterOn && timing > 59999) {
-			// passed a corner
-			stopTimeCounter();
-			stop();
-			delay(30000);
-			slow();
-		}
-
 		// Touching both line means it meets a turn.
 		if (!leftSensor && !rightSensor) {
 			if (path.posTurn == -1) {
@@ -141,27 +116,30 @@ void main(void)
 				exit(0);
 			}
 			switch (path.arrTurn[path.posTurn]) {
-				case -1:
-					fixStraigt();
-					turnLeft();
-					break;
-				case 1:
-					fixStraigt();
-					turnRight();
-					break;
-				case 0:
-					stop();
-					delay(50000);
-					forwardWheel();
-					fullSpeed();
-					delay(9000);
+			case -1:
+				fixStraigt();
+				turnLeft();
+				break;
+			case 1:
+				fixStraigt();
+				turnRight();
+				break;
+			case 0:
+				stop();
+				delay(50000);
+				forwardWheel();
+				fullSpeed();
+				delay(9000);
 			}
 			path.posTurn--;
 
 			forwardWheel();
-			slow();
+			if (path.posTurn == 0)
+				fullSpeed();
+			else 
+				slow();
 	
 		}
-		debugWithLED(path.posTurn);
+
 	}
 }

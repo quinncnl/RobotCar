@@ -1,29 +1,39 @@
 #include  <msp430g2553.h>
-#include  "utils.h"
+#include "main.h"
 
-
-int front_sensor = 0;
-int left_line_sensor = 0;
-int right_line_sensor = 0;
 
 void wait(){ long i = 75000; while(i--); }
 void delay(long i) {while(i--);}
-void forwardLeftWheel() { P2OUT &=~ BIT1; }
-void backwardLeftWheel() { P2OUT |= BIT1; }
-void forwardRightWheel(){ P2OUT &=~ BIT5; }
-void backwardRightWheel(){ P2OUT |= BIT5; }
-void forwardWheel(){ forwardLeftWheel(); forwardRightWheel(); }
-void backwardWheel(){ backwardLeftWheel(); backwardRightWheel(); }
 
-void fullSpeed(){ TA1CCR1 = 1000; TA1CCR2 = 950; }
-void startLeftWheel(){ TA1CCR1 = 600; }
-void stopLeftWheel(){ TA1CCR1 = 0; }
-void startRightWheel(){ TA1CCR2 = 600; }
-void stopRightWheel(){ TA1CCR2 = 0; }
-void slowLeftWheel(){ TA1CCR1 = 400; }
-void slowRightWheel(){ TA1CCR2 = 400; }
-void slow() { slowRightWheel(); slowLeftWheel(); }
-void stop(){ stopLeftWheel(); stopRightWheel(); }
+
+void initTA(){
+	TA1CTL = TASSEL_2 + MC_1;
+	TA1CCR0 = 1000;
+	TA1CCTL1 = OUTMOD_7;
+	TA1CCTL2 = OUTMOD_7;
+
+	P2DIR |= BIT2 + BIT4;
+	P2SEL |= BIT2 + BIT4;
+}
+
+void initPins(){
+
+	P1DIR &=~ (BIT7 + BIT5); // Destination selector
+	P1REN |= (BIT7 + BIT5);
+	P1OUT &=~ (BIT7 + BIT5);
+
+    P2DIR |= BIT1 + BIT5; // Motors
+	P1DIR |= BIT0 + BIT6; // Debug leds
+
+	// Button
+	P1DIR &= ~BIT3;
+	P1REN |= BIT3;
+	P1OUT |= BIT3;
+	P1IE |= BIT3;
+	P1IES |= BIT3;
+	P1IFG &= ~BIT3;
+}
+
 
 void onLED0(){ P1OUT |= BIT0; }
 void offLED0(){	P1OUT &=~ BIT0; }
@@ -31,158 +41,55 @@ void onLED6(){ P1OUT |= BIT6; }
 void offLED6(){	P1OUT &=~ BIT6; }
 
 void debugWithLED(int i) {
+	i = i % 4;
+
 	switch (i) {
-		case 0:
+	case 0:
 		offLED0();
 		offLED6();
 		break;
-		case 1:
+	case 1:
 		onLED0();
 		offLED6();
 		break;
-		case 2:
+	case 2:
 		onLED6();
 		offLED0();
 		break;
-		case 3:
+	case 3:
 		onLED6();
 		onLED0();
 	}
 }
-void readLineSensor() {
-	left_line_sensor = read_adc(1);
-	right_line_sensor = read_adc(2);
-}
 
-int front_sensor;
-void readFrontSensor(){
-	front_sensor = read_adc(4);
-}
+#pragma vector=PORT1_VECTOR
+__interrupt void Port_1(void)
+{
 
-int meetObstacle(){
-	if (front_sensor > 400) 
-		return 1;
-	else 
-		return 0;
-}
+	int P17 = P1IN & BIT7;
+	int P15 = P1IN & BIT5;
+	if (P1IFG & BIT3) {
 
-
-void fixStraigt(){
-	forwardWheel();
-	fullSpeed();
-	delay(26000);
-}
-
-void forceTurnLeft(long d){
-	backwardLeftWheel();
-	forwardRightWheel();
-	slow();
-
-	delay(d);
-	stop();
-}
-void turnLeft(){
-
-	backwardLeftWheel();
-	forwardRightWheel();
-	slow();
-
-	int i = 90000;
-
-	while(i--) {
-
-		readLineSensor();
-
-		if (!touchRoadLeft()) {
-
-			return;
+		P1IFG &= ~BIT3;
+		if (P15 && P17) {
+			// on/on
+			debugWithLED(3);
+			routeToBoulangerie();
 		}
-
-		if (!touchRoadRight()) {
-
-			return;
+		else if (P15 == 0 && P17) {
+			// of/on
+			debugWithLED(1);
+			routeToBank();
+		}
+		else if (P15 && P17 == 0) {
+			// on/of
+			debugWithLED(2);
+			routeToPoste();
+		}
+		else if (P15 == 0 && P17 == 0) {
+			// of/of
+			debugWithLED(0);
+			routeToHospital();
 		}
 	}
-}
-
-void turnRight(){
-
-	forwardLeftWheel();
-	backwardRightWheel();
-	slow();
-
-	int i = 90000;
-
-	while(i--) {
-
-		readLineSensor();
-
-		if (!touchRoadLeft()) {
-
-			return;
-		}
-
-		if (!touchRoadRight()) {
-
-			return;
-		}
-	}
-}
-
-void determineValue(int v){
-	if (v < 200)	{
-		debugWithLED(0);
-	}
-	else if (v < 400)	{
-		debugWithLED(1);
-	}
-	else if (v < 600)	{
-		debugWithLED(2);
-	}
-	else {
-		debugWithLED(3);
-	}
-}
-void determineLeftSensorValue(){
-	determineValue(left_line_sensor);
-}
-
-int touchTarget(int s){ return (s > 900); }
-int touchTargetLeft(){return touchTarget(left_line_sensor);}
-int touchTargetRight(){return touchTarget(right_line_sensor);}
-int touchRoad(int i){ return (i > 600 && i < 900); }
-int touchRoadLeft(){ return touchRoad(left_line_sensor); }
-int touchRoadRight(){ return touchRoad(right_line_sensor); }
-int touchStart(){ return (left_line_sensor > 900); }
-
-void targetReached(){
-
-	fullSpeed();
-	forwardWheel();
-
-	// go straight
-	delay(90000);
-	stop();
-	delay(50000);
-
-	fullSpeed();
-	backwardWheel();
-	delay(100000);
-
-	slow();
-	forceTurnLeft(80000);
-	turnLeft();
-
-}
-
-void enterGarage(){
-	fullSpeed();
-	forwardWheel();
-
-	// go straight
-	delay(40000);
-
-	forceTurnLeft(170000);
-
-	stop();
 }

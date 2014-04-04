@@ -2,7 +2,7 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>1190633253</fileChecksum>
+  <fileChecksum>2422021088</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
@@ -34,6 +34,11 @@
       <file>$TOOLKIT_DIR$\inc\in430.h</file>
       <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
       <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
+      <file>$PROJ_DIR$\drive.h</file>
+      <file>$PROJ_DIR$\drive.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\drive.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\drive.pbi</file>
+      <file>$PROJ_DIR$\main.h</file>
     </outputs>
     <file>
       <name>[ROOT_NODE]</name>
@@ -86,17 +91,21 @@
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 21 25 3 24 11 1 10 19 20 4 18 12 14 8</file>
+          <file> 21 25 3 24 11 1 10 19 20 4 18 12 14 8 28 32</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 21 25 3 24 11 1 10 19 20 4 18 12 14 8</file>
+          <file> 21 25 3 24 11 1 10 19 20 4 18 12 14 8 28 32</file>
         </tool>
       </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\utils.c</name>
       <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 0</file>
+        </tool>
         <tool>
           <name>BICOMP</name>
           <file> 17</file>
@@ -105,7 +114,11 @@
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 21 25 3 8</file>
+          <file> 21 25 3 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 25 3 32</file>
         </tool>
       </inputs>
     </file>
@@ -114,7 +127,30 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 27 16 7 0 6</file>
+          <file> 27 16 30 7 0 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\drive.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 21 25 3 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 25 3 8</file>
         </tool>
       </inputs>
     </file>

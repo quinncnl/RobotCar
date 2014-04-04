@@ -1954,6 +1954,9 @@
     <name>$PROJ_DIR$\adc.c</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\drive.c</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\main.c</name>
   </file>
   <file>
