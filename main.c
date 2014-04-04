@@ -10,13 +10,11 @@ int timeCounterOn = 0;
 struct map {
 	int posTurn;
 	int *arrTurn;
-};
+} path;
 
 // -1: left
 // 1: right
 // 0: nothing
-
-struct map path;
 
 int arrTurnToBoulangerie[10] = {1, 1, -1, -1};
 void routeToBoulangerie(){
@@ -30,20 +28,24 @@ void routeToBank(){
 	path.arrTurn = arrTurnToBanque;
 }
 
+int arrTurnToPoste[10] = {0, 0, 1, -1, 1, -1, 0, 0};
+void routeToPoste(){
+	path.posTurn = 7;
+	path.arrTurn = arrTurnToPoste;
+}
+
+int arrTurnToHospital[10] = {1, 0, -1, -1, 1, 0, -1, 0, 0};
+void routeToHospital(){
+	path.posTurn = 8;
+	path.arrTurn = arrTurnToHospital;
+}
+
 #pragma vector=PORT2_VECTOR
 __interrupt void Port_2(void)
 {
 
 	//	P1OUT ^= BIT6;
 	P2IFG &=~ (BIT0);
-}
-
-void startTimeCounter(){
-	timeCounterOn = 1;
-	timing = 0;
-}
-void stopTimeCounter(){
-	timeCounterOn = 0;
 }
 
 void initTA(){
@@ -71,26 +73,20 @@ void main(void)
 
 	wait();
 
-	routeToBank();
-
-	//goStaight();
-	//forwardWheel();
+	routeToBoulangerie();
 
 	while(1){
 
-		//front_sensor = read_adc(4);
-	
+		readFrontSensor();	
 		readLineSensor();
 
 		if (touchTargetLeft())	{
 			targetReached();
 		}
 
-		/*
-		if (front_sensor > 400) {
+		if (meetObstacle()) {
 			stop();
 		}
-		*/
 
 		if (touchRoadLeft()) {
 			// not touching line
@@ -140,33 +136,31 @@ void main(void)
 
 		// Touching both line means it meets a turn.
 		if (!leftSensor && !rightSensor) {
-
-			//if (timeCounterOn == 0 && path.posTurn >= 0) {
-				switch (path.arrTurn[path.posTurn]) {
-					case -1:
+			if (path.posTurn == -1) {
+				enterGarage();
+				exit(0);
+			}
+			switch (path.arrTurn[path.posTurn]) {
+				case -1:
+					fixStraigt();
 					turnLeft();
 					break;
-					case 1:
+				case 1:
+					fixStraigt();
 					turnRight();
 					break;
-					case 0:
-
+				case 0:
 					stop();
 					delay(50000);
 					forwardWheel();
 					fullSpeed();
 					delay(9000);
+			}
+			path.posTurn--;
 
-				}
-				path.posTurn--;
+			forwardWheel();
+			slow();
 	
-				forwardWheel();
-				slow();
-			
-				debugWithLED(path.posTurn);
-				startTimeCounter();
-			//}
-			
 		}
 		debugWithLED(path.posTurn);
 	}

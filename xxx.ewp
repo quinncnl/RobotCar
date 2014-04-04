@@ -1954,16 +1954,10 @@
     <name>$PROJ_DIR$\adc.c</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\adc.h</name>
-  </file>
-  <file>
     <name>$PROJ_DIR$\main.c</name>
   </file>
   <file>
     <name>$PROJ_DIR$\utils.c</name>
-  </file>
-  <file>
-    <name>$PROJ_DIR$\utils.h</name>
   </file>
 </project>
 

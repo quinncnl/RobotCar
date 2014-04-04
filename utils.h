@@ -30,6 +30,8 @@ void onLED6();
 void offLED6();
 
 void readLineSensor();
+void readFrontSensor();
+void fixStraight();
 
 int touchTargetLeft();
 int touchTargetRight();
@@ -38,3 +40,6 @@ int touchRoadLeft();
 int touchRoadRight();
 void targetReached();
 void debugWithLED(int);
+
+void determineLeftSensorValue();
+void enterGarage();

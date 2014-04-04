@@ -54,70 +54,97 @@ void readLineSensor() {
 	right_line_sensor = read_adc(2);
 }
 
-void turnLeft(){
+int front_sensor;
+void readFrontSensor(){
+	front_sensor = read_adc(4);
+}
+
+int meetObstacle(){
+	if (front_sensor > 400) 
+		return 1;
+	else 
+		return 0;
+}
+
+
+void fixStraigt(){
+	forwardWheel();
+	fullSpeed();
+	delay(26000);
+}
+
+void forceTurnLeft(long d){
 	backwardLeftWheel();
 	forwardRightWheel();
-	slowLeftWheel();
-	slowRightWheel();
-
-	delay(39000);
-	
-}
-
-void turnRight(){
-	forwardLeftWheel();
-	backwardRightWheel();
-	startLeftWheel();
-	startRightWheel();
-
-	delay(27000);
-
-	stopRightWheel();
-	stopLeftWheel();
-}
-
-void turnAround(){ 
-
-// turn right
-	forwardLeftWheel();
-	backwardRightWheel();
-//	fullSpeed();
 	slow();
 
-	long i = 99900;
+	delay(d);
+	stop();
+}
+void turnLeft(){
+
+	backwardLeftWheel();
+	forwardRightWheel();
+	slow();
+
+	int i = 90000;
+
 	while(i--) {
 
 		readLineSensor();
 
 		if (!touchRoadLeft()) {
-			delay(10000);
+
 			return;
 		}
 
 		if (!touchRoadRight()) {
-			delay(10000);
+
+			return;
+		}
+	}
+}
+
+void turnRight(){
+
+	forwardLeftWheel();
+	backwardRightWheel();
+	slow();
+
+	int i = 90000;
+
+	while(i--) {
+
+		readLineSensor();
+
+		if (!touchRoadLeft()) {
+
+			return;
+		}
+
+		if (!touchRoadRight()) {
+
 			return;
 		}
 	}
 }
 
 void determineValue(int v){
-	if (v < 500)	{
-		onLED0();
-		onLED6();
+	if (v < 200)	{
+		debugWithLED(0);
+	}
+	else if (v < 400)	{
+		debugWithLED(1);
 	}
 	else if (v < 600)	{
-		offLED0();
-		onLED6();
-	}
-	else if (v < 900)	{
-		onLED0();
-		offLED6();
+		debugWithLED(2);
 	}
 	else {
-		offLED0();
-		offLED6();
+		debugWithLED(3);
 	}
+}
+void determineLeftSensorValue(){
+	determineValue(left_line_sensor);
 }
 
 int touchTarget(int s){ return (s > 900); }
@@ -126,6 +153,7 @@ int touchTargetRight(){return touchTarget(right_line_sensor);}
 int touchRoad(int i){ return (i > 600 && i < 900); }
 int touchRoadLeft(){ return touchRoad(left_line_sensor); }
 int touchRoadRight(){ return touchRoad(right_line_sensor); }
+int touchStart(){ return (left_line_sensor > 900); }
 
 void targetReached(){
 
@@ -142,9 +170,19 @@ void targetReached(){
 	delay(100000);
 
 	slow();
-	turnRight();
-	turnAround();
+	forceTurnLeft(80000);
+	turnLeft();
 
+}
+
+void enterGarage(){
+	fullSpeed();
 	forwardWheel();
-	
+
+	// go straight
+	delay(40000);
+
+	forceTurnLeft(170000);
+
+	stop();
 }
