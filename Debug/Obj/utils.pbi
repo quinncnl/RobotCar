@@ -1219,39 +1219,39 @@
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:976:9: macro definition=NMI_VECTOR <US>c:macro@NMI_VECTOR<UE> <DS>NMI_VECTOR<DE> Extent=<ES>976:9 - 976:38<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:977:9: macro definition=RESET_VECTOR <US>c:macro@RESET_VECTOR<UE> <DS>RESET_VECTOR<DE> Extent=<ES>977:9 - 977:38<EE>
 <L>Z:\msee\iar\MSP\robotcar\utils.c:2:1: inclusion directive=main.h <US><UE> <DS><DE> <IS>Z:\msee\iar\MSP\robotcar\main.h<IE>  Extent=<ES>2:1 - 2:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:10:11: macro expansion=TASSEL_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:597:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>10:11 - 10:19<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:10:22: macro expansion=MC_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:588:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>10:22 - 10:26<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:12:13: macro expansion=OUTMOD_7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:623:9 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>12:13 - 12:21<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:13:13: macro expansion=OUTMOD_7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:623:9 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>13:13 - 13:21<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:15:11: macro expansion=BIT2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:61:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>15:11 - 15:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:15:18: macro expansion=BIT4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:63:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>15:18 - 15:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:16:11: macro expansion=BIT2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:61:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>16:11 - 16:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:16:18: macro expansion=BIT4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:63:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>16:18 - 16:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:8:11: macro expansion=TASSEL_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:597:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>8:11 - 8:19<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:8:22: macro expansion=MC_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:588:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>8:22 - 8:26<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:10:13: macro expansion=OUTMOD_7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:623:9 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>10:13 - 10:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:11:13: macro expansion=OUTMOD_7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:623:9 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>11:13 - 11:21<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:13:11: macro expansion=BIT2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:61:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>13:11 - 13:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:13:18: macro expansion=BIT4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:63:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>13:18 - 13:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:14:11: macro expansion=BIT2|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:61:9 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>14:11 - 14:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:14:18: macro expansion=BIT4|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:63:9 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>14:18 - 14:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:19:13: macro expansion=BIT7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:66:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>19:13 - 19:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:19:20: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>19:20 - 19:24<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:20:12: macro expansion=BIT7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:66:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>20:12 - 20:16<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:20:19: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>20:19 - 20:23<EE>
 <L>Z:\msee\iar\MSP\robotcar\utils.c:21:13: macro expansion=BIT7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:66:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>21:13 - 21:17<EE>
 <L>Z:\msee\iar\MSP\robotcar\utils.c:21:20: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>21:20 - 21:24<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:22:12: macro expansion=BIT7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:66:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>22:12 - 22:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:22:19: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>22:19 - 22:23<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:23:13: macro expansion=BIT7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:66:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>23:13 - 23:17<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:23:20: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>23:20 - 23:24<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:25:14: macro expansion=BIT1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:60:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>25:14 - 25:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:25:21: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>25:21 - 25:25<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:26:11: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>26:11 - 26:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:26:18: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:65:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>26:18 - 26:22<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:29:12: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>29:12 - 29:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:30:11: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>30:11 - 30:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:23:14: macro expansion=BIT1|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:60:9 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>23:14 - 23:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:23:21: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>23:21 - 23:25<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:24:11: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>24:11 - 24:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:24:18: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:65:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>24:18 - 24:22<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:27:12: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>27:12 - 27:16<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:28:11: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>28:11 - 28:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:29:11: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>29:11 - 29:15<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:30:10: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>30:10 - 30:14<EE>
 <L>Z:\msee\iar\MSP\robotcar\utils.c:31:11: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>31:11 - 31:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:32:10: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>32:10 - 32:14<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:33:11: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>33:11 - 33:15<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:34:12: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>34:12 - 34:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:38:25: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>38:25 - 38:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:39:27: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>39:27 - 39:31<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:40:25: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:65:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>40:25 - 40:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:41:27: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:65:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>41:27 - 41:31<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:66:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>66:1 - 66:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:69:19: macro expansion=BIT7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:66:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>69:19 - 69:23<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:70:19: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>70:19 - 70:23<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:71:14: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>71:14 - 71:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:73:13: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>73:13 - 73:17<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:32:12: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>32:12 - 32:16<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:36:25: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>36:25 - 36:29<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:37:27: macro expansion=BIT0|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:59:9 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>37:27 - 37:31<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:38:25: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:65:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>38:25 - 38:29<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:39:27: macro expansion=BIT6|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:65:9 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>39:27 - 39:31<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:64:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>64:1 - 64:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:67:19: macro expansion=BIT7|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:66:9 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>67:19 - 67:23<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:68:19: macro expansion=BIT5|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:64:9 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>68:19 - 68:23<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:69:14: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>69:14 - 69:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:71:13: macro expansion=BIT3|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:62:9 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>71:13 - 71:17<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -1339,86 +1339,86 @@
 <L>Z:\msee\iar\MSP\robotcar\main.h:7:6: FunctionDecl=routeToHospital|Z:\msee\iar\MSP\robotcar\main.h:7:6 (Declaration) <US>c:@F@routeToHospital<UE> <DS>void routeToHospital(void)<DE> Extent=<ES>7:1 - 7:23<EE>
 <L>Z:\msee\iar\MSP\robotcar\main.h:9:6: FunctionDecl=main|Z:\msee\iar\MSP\robotcar\main.h:9:6 (Declaration) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>9:1 - 9:12<EE>
 <L>Z:\msee\iar\MSP\robotcar\main.h:11:6: FunctionDecl=mainLoop|Z:\msee\iar\MSP\robotcar\main.h:11:6 (Declaration) <US>c:@F@mainLoop<UE> <DS>void mainLoop(void)<DE> Extent=<ES>11:1 - 11:16<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:5:6: FunctionDecl=wait|Z:\msee\iar\MSP\robotcar\utils.c:5:6 (Definition) <US>c:@F@wait<UE> <DS>void wait(void)<DE> Extent=<ES>5:1 - 5:43<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:5:12: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>5:12 - 5:43<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:5:14: DeclStmt= <US><UE> <DS><DE> Extent=<ES>5:14 - 5:29<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:5:19: VarDecl=i|Z:\msee\iar\MSP\robotcar\utils.c:5:19 (Definition) <US>c:utils.c@59@F@wait@i<UE> <DS>i<DE> Extent=<ES>5:14 - 5:28<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:5:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>5:23 - 5:28<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:5:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>5:23 - 5:28<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:5:30: WhileStmt= <US><UE> <DS><DE> Extent=<ES>5:30 - 5:41<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:5:36: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>5:36 - 5:39<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:5:36: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:5:19 (Reference) <US>c:utils.c@59@F@wait@i<UE> <DS>i<DE> Extent=<ES>5:36 - 5:37<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:5:40: NullStmt= <US><UE> <DS><DE> Extent=<ES>5:40 - 5:41<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:6:6: FunctionDecl=delay|Z:\msee\iar\MSP\robotcar\utils.c:6:6 (Definition) <US>c:@F@delay<UE> <DS>void delay(long)<DE> Extent=<ES>6:1 - 6:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:6:17: ParmDecl=i|Z:\msee\iar\MSP\robotcar\utils.c:6:17 (Definition) <US>c:utils.c@100@F@delay@i<UE> <DS>long<DE> Extent=<ES>6:12 - 6:18<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:6:20: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>6:20 - 6:33<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:6:21: WhileStmt= <US><UE> <DS><DE> Extent=<ES>6:21 - 6:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:6:27: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>6:27 - 6:30<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:6:27: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:6:17 (Reference) <US>c:utils.c@100@F@delay@i<UE> <DS>long<DE> Extent=<ES>6:27 - 6:28<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:6:31: NullStmt= <US><UE> <DS><DE> Extent=<ES>6:31 - 6:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:9:6: FunctionDecl=initTA|Z:\msee\iar\MSP\robotcar\utils.c:9:6 (Definition) <US>c:@F@initTA<UE> <DS>void initTA(void)<DE> Extent=<ES>9:1 - 17:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:9:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>9:14 - 17:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:19:6: FunctionDecl=initPins|Z:\msee\iar\MSP\robotcar\utils.c:19:6 (Definition) <US>c:@F@initPins<UE> <DS>void initPins(void)<DE> Extent=<ES>19:1 - 35:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:19:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>19:16 - 35:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:38:6: FunctionDecl=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:38:6 (Definition) <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>38:1 - 38:32<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:4:6: FunctionDecl=wait|Z:\msee\iar\MSP\robotcar\utils.c:4:6 (Definition) <US>c:@F@wait<UE> <DS>void wait(void)<DE> Extent=<ES>4:1 - 4:43<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:4:12: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>4:12 - 4:43<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:4:14: DeclStmt= <US><UE> <DS><DE> Extent=<ES>4:14 - 4:29<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:4:19: VarDecl=i|Z:\msee\iar\MSP\robotcar\utils.c:4:19 (Definition) <US>c:utils.c@58@F@wait@i<UE> <DS>i<DE> Extent=<ES>4:14 - 4:28<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:4:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>4:23 - 4:28<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:4:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>4:23 - 4:28<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:4:30: WhileStmt= <US><UE> <DS><DE> Extent=<ES>4:30 - 4:41<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:4:36: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>4:36 - 4:39<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:4:36: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:4:19 (Reference) <US>c:utils.c@58@F@wait@i<UE> <DS>i<DE> Extent=<ES>4:36 - 4:37<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:4:40: NullStmt= <US><UE> <DS><DE> Extent=<ES>4:40 - 4:41<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:5:6: FunctionDecl=delay|Z:\msee\iar\MSP\robotcar\utils.c:5:6 (Definition) <US>c:@F@delay<UE> <DS>void delay(long)<DE> Extent=<ES>5:1 - 5:33<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:5:17: ParmDecl=i|Z:\msee\iar\MSP\robotcar\utils.c:5:17 (Definition) <US>c:utils.c@99@F@delay@i<UE> <DS>long<DE> Extent=<ES>5:12 - 5:18<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:5:20: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>5:20 - 5:33<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:5:21: WhileStmt= <US><UE> <DS><DE> Extent=<ES>5:21 - 5:32<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:5:27: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>5:27 - 5:30<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:5:27: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:5:17 (Reference) <US>c:utils.c@99@F@delay@i<UE> <DS>long<DE> Extent=<ES>5:27 - 5:28<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:5:31: NullStmt= <US><UE> <DS><DE> Extent=<ES>5:31 - 5:32<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:7:6: FunctionDecl=initTA|Z:\msee\iar\MSP\robotcar\utils.c:7:6 (Definition) <US>c:@F@initTA<UE> <DS>void initTA(void)<DE> Extent=<ES>7:1 - 15:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:7:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>7:14 - 15:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:17:6: FunctionDecl=initPins|Z:\msee\iar\MSP\robotcar\utils.c:17:6 (Definition) <US>c:@F@initPins<UE> <DS>void initPins(void)<DE> Extent=<ES>17:1 - 33:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:17:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>17:16 - 33:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:36:6: FunctionDecl=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:36:6 (Definition) <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>36:1 - 36:32<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:36:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>36:14 - 36:32<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:37:6: FunctionDecl=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:37:6 (Definition) <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>37:1 - 37:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:37:15: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>37:15 - 37:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:38:6: FunctionDecl=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:38:6 (Definition) <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>38:1 - 38:32<EE>
 <L>Z:\msee\iar\MSP\robotcar\utils.c:38:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>38:14 - 38:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:39:6: FunctionDecl=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:39:6 (Definition) <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>39:1 - 39:34<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:39:6: FunctionDecl=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:39:6 (Definition) <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>39:1 - 39:34<EE>
 <L>Z:\msee\iar\MSP\robotcar\utils.c:39:15: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>39:15 - 39:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:40:6: FunctionDecl=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:40:6 (Definition) <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>40:1 - 40:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:40:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>40:14 - 40:32<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:41:6: FunctionDecl=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:41:6 (Definition) <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>41:1 - 41:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:41:15: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>41:15 - 41:34<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:43:6: FunctionDecl=debugWithLED|Z:\msee\iar\MSP\robotcar\utils.c:43:6 (Definition) <US>c:@F@debugWithLED<UE> <DS>void debugWithLED(int)<DE> Extent=<ES>43:1 - 63:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:43:23: ParmDecl=i|Z:\msee\iar\MSP\robotcar\utils.c:43:23 (Definition) <US>c:utils.c@734@F@debugWithLED@i<UE> <DS>int<DE> Extent=<ES>43:19 - 43:24<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:43:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>43:26 - 63:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:44:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>44:2 - 44:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:44:2: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:43:23 (Reference) <US>c:utils.c@734@F@debugWithLED@i<UE> <DS>int<DE> Extent=<ES>44:2 - 44:3<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:44:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>44:6 - 44:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:44:6: UnexposedExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:43:23 <US>c:utils.c@734@F@debugWithLED@i<UE> <DS>int<DE> Extent=<ES>44:6 - 44:7<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:44:6: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:43:23 (Reference) <US>c:utils.c@734@F@debugWithLED@i<UE> <DS>int<DE> Extent=<ES>44:6 - 44:7<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:44:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>44:10 - 44:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:46:2: SwitchStmt= <US><UE> <DS><DE> Extent=<ES>46:2 - 62:3<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:46:10: UnexposedExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:43:23 <US>c:utils.c@734@F@debugWithLED@i<UE> <DS>int<DE> Extent=<ES>46:10 - 46:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:46:10: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:43:23 (Reference) <US>c:utils.c@734@F@debugWithLED@i<UE> <DS>int<DE> Extent=<ES>46:10 - 46:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:46:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>46:13 - 62:3<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:47:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>47:2 - 48:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:47:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>47:7 - 47:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:48:3: CallExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:39:6 <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>48:3 - 48:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:48:3: UnexposedExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:39:6 <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>48:3 - 48:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:48:3: DeclRefExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:39:6 (Reference) <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>48:3 - 48:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:49:3: CallExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:41:6 <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>49:3 - 49:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:49:3: UnexposedExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:41:6 <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>49:3 - 49:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:49:3: DeclRefExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:41:6 (Reference) <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>49:3 - 49:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:50:3: BreakStmt= <US><UE> <DS><DE> Extent=<ES>50:3 - 50:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:51:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>51:2 - 52:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:51:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>51:7 - 51:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:52:3: CallExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:38:6 <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>52:3 - 52:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:52:3: UnexposedExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:38:6 <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>52:3 - 52:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:52:3: DeclRefExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:38:6 (Reference) <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>52:3 - 52:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:53:3: CallExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:41:6 <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>53:3 - 53:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:53:3: UnexposedExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:41:6 <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>53:3 - 53:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:53:3: DeclRefExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:41:6 (Reference) <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>53:3 - 53:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:54:3: BreakStmt= <US><UE> <DS><DE> Extent=<ES>54:3 - 54:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:55:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>55:2 - 56:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:55:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:7 - 55:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:56:3: CallExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:40:6 <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>56:3 - 56:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:56:3: UnexposedExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:40:6 <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>56:3 - 56:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:56:3: DeclRefExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:40:6 (Reference) <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>56:3 - 56:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:57:3: CallExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:39:6 <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>57:3 - 57:12<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:57:3: UnexposedExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:39:6 <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>57:3 - 57:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:57:3: DeclRefExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:39:6 (Reference) <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>57:3 - 57:10<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:58:3: BreakStmt= <US><UE> <DS><DE> Extent=<ES>58:3 - 58:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:59:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>59:2 - 60:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:59:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>59:7 - 59:8<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:60:3: CallExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:40:6 <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>60:3 - 60:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:60:3: UnexposedExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:40:6 <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>60:3 - 60:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:60:3: DeclRefExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:40:6 (Reference) <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>60:3 - 60:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:61:3: CallExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:38:6 <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>61:3 - 61:11<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:61:3: UnexposedExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:38:6 <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>61:3 - 61:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:61:3: DeclRefExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:38:6 (Reference) <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>61:3 - 61:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:66:18: FunctionDecl=Port_1|Z:\msee\iar\MSP\robotcar\utils.c:66:18 (Definition) <US>c:@F@Port_1<UE> <DS>void Port_1(void)<DE> Extent=<ES>66:13 - 95:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:67:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>67:1 - 95:2<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:69:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>69:2 - 69:24<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:69:6: VarDecl=P17|Z:\msee\iar\MSP\robotcar\utils.c:69:6 (Definition) <US>c:utils.c@1001@F@Port_1@P17<UE> <DS>P17<DE> Extent=<ES>69:2 - 69:9<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:70:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>70:2 - 70:24<EE>
-<L>Z:\msee\iar\MSP\robotcar\utils.c:70:6: VarDecl=P15|Z:\msee\iar\MSP\robotcar\utils.c:70:6 (Definition) <US>c:utils.c@1025@F@Port_1@P15<UE> <DS>P15<DE> Extent=<ES>70:2 - 70:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:41:6: FunctionDecl=debugWithLED|Z:\msee\iar\MSP\robotcar\utils.c:41:6 (Definition) <US>c:@F@debugWithLED<UE> <DS>void debugWithLED(int)<DE> Extent=<ES>41:1 - 61:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:41:23: ParmDecl=i|Z:\msee\iar\MSP\robotcar\utils.c:41:23 (Definition) <US>c:utils.c@732@F@debugWithLED@i<UE> <DS>int<DE> Extent=<ES>41:19 - 41:24<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:41:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>41:26 - 61:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:42:2: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>42:2 - 42:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:42:2: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:41:23 (Reference) <US>c:utils.c@732@F@debugWithLED@i<UE> <DS>int<DE> Extent=<ES>42:2 - 42:3<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:42:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>42:6 - 42:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:42:6: UnexposedExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:41:23 <US>c:utils.c@732@F@debugWithLED@i<UE> <DS>int<DE> Extent=<ES>42:6 - 42:7<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:42:6: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:41:23 (Reference) <US>c:utils.c@732@F@debugWithLED@i<UE> <DS>int<DE> Extent=<ES>42:6 - 42:7<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:42:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>42:10 - 42:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:44:2: SwitchStmt= <US><UE> <DS><DE> Extent=<ES>44:2 - 60:3<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:44:10: UnexposedExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:41:23 <US>c:utils.c@732@F@debugWithLED@i<UE> <DS>int<DE> Extent=<ES>44:10 - 44:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:44:10: DeclRefExpr=i|Z:\msee\iar\MSP\robotcar\utils.c:41:23 (Reference) <US>c:utils.c@732@F@debugWithLED@i<UE> <DS>int<DE> Extent=<ES>44:10 - 44:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:44:13: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>44:13 - 60:3<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:45:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>45:2 - 46:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:45:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>45:7 - 45:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:46:3: CallExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:37:6 <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>46:3 - 46:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:46:3: UnexposedExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:37:6 <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>46:3 - 46:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:46:3: DeclRefExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:37:6 (Reference) <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>46:3 - 46:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:47:3: CallExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:39:6 <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>47:3 - 47:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:47:3: UnexposedExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:39:6 <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>47:3 - 47:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:47:3: DeclRefExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:39:6 (Reference) <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>47:3 - 47:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:48:3: BreakStmt= <US><UE> <DS><DE> Extent=<ES>48:3 - 48:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:49:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>49:2 - 50:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:49:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>49:7 - 49:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:50:3: CallExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:36:6 <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>50:3 - 50:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:50:3: UnexposedExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:36:6 <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>50:3 - 50:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:50:3: DeclRefExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:36:6 (Reference) <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>50:3 - 50:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:51:3: CallExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:39:6 <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>51:3 - 51:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:51:3: UnexposedExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:39:6 <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>51:3 - 51:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:51:3: DeclRefExpr=offLED6|Z:\msee\iar\MSP\robotcar\utils.c:39:6 (Reference) <US>c:@F@offLED6<UE> <DS>void offLED6(void)<DE> Extent=<ES>51:3 - 51:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:52:3: BreakStmt= <US><UE> <DS><DE> Extent=<ES>52:3 - 52:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:53:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>53:2 - 54:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:53:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>53:7 - 53:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:54:3: CallExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:38:6 <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>54:3 - 54:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:54:3: UnexposedExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:38:6 <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>54:3 - 54:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:54:3: DeclRefExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:38:6 (Reference) <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>54:3 - 54:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:55:3: CallExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:37:6 <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>55:3 - 55:12<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:55:3: UnexposedExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:37:6 <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>55:3 - 55:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:55:3: DeclRefExpr=offLED0|Z:\msee\iar\MSP\robotcar\utils.c:37:6 (Reference) <US>c:@F@offLED0<UE> <DS>void offLED0(void)<DE> Extent=<ES>55:3 - 55:10<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:56:3: BreakStmt= <US><UE> <DS><DE> Extent=<ES>56:3 - 56:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:57:2: CaseStmt= <US><UE> <DS><DE> Extent=<ES>57:2 - 58:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:57:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>57:7 - 57:8<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:58:3: CallExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:38:6 <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>58:3 - 58:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:58:3: UnexposedExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:38:6 <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>58:3 - 58:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:58:3: DeclRefExpr=onLED6|Z:\msee\iar\MSP\robotcar\utils.c:38:6 (Reference) <US>c:@F@onLED6<UE> <DS>void onLED6(void)<DE> Extent=<ES>58:3 - 58:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:59:3: CallExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:36:6 <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>59:3 - 59:11<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:59:3: UnexposedExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:36:6 <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>59:3 - 59:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:59:3: DeclRefExpr=onLED0|Z:\msee\iar\MSP\robotcar\utils.c:36:6 (Reference) <US>c:@F@onLED0<UE> <DS>void onLED0(void)<DE> Extent=<ES>59:3 - 59:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:64:18: FunctionDecl=Port_1|Z:\msee\iar\MSP\robotcar\utils.c:64:18 (Definition) <US>c:@F@Port_1<UE> <DS>void Port_1(void)<DE> Extent=<ES>64:13 - 93:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:65:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>65:1 - 93:2<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:67:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>67:2 - 67:24<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:67:6: VarDecl=P17|Z:\msee\iar\MSP\robotcar\utils.c:67:6 (Definition) <US>c:utils.c@999@F@Port_1@P17<UE> <DS>P17<DE> Extent=<ES>67:2 - 67:9<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:68:2: DeclStmt= <US><UE> <DS><DE> Extent=<ES>68:2 - 68:24<EE>
+<L>Z:\msee\iar\MSP\robotcar\utils.c:68:6: VarDecl=P15|Z:\msee\iar\MSP\robotcar\utils.c:68:6 (Definition) <US>c:utils.c@1023@F@Port_1@P15<UE> <DS>P15<DE> Extent=<ES>68:2 - 68:9<EE>

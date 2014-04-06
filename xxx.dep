@@ -6,96 +6,60 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Obj\utils.r43</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
-      <file>$PROJ_DIR$\adc.c</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\xxx.pbd</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
       <file>$PROJ_DIR$\utils.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
-      <file>$PROJ_DIR$\main.c</file>
-      <file>$PROJ_DIR$\adc.h</file>
+      <file>$PROJ_DIR$\adc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\utils.r43</file>
       <file>$PROJ_DIR$\utils.c</file>
+      <file>$PROJ_DIR$\drive.c</file>
+      <file>$PROJ_DIR$\drive.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\drive.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\drive.pbi</file>
+      <file>$PROJ_DIR$\main.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\adc.h</file>
       <file>$PROJ_DIR$\Debug\Obj\adc.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\utils.pbi</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
       <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
       <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
       <file>$PROJ_DIR$\Debug\Exe\xxx.d43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\xxx.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
       <file>$PROJ_DIR$\Debug\Exe\xxx.ulp</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
       <file>$TOOLKIT_DIR$\inc\in430.h</file>
       <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
       <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
-      <file>$PROJ_DIR$\drive.h</file>
-      <file>$PROJ_DIR$\drive.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\drive.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\drive.pbi</file>
-      <file>$PROJ_DIR$\main.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
     </outputs>
-    <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 22</file>
-        </tool>
-        <tool>
-          <name>ULP430</name>
-          <file> 23</file>
-        </tool>
-      </outputs>
-    </file>
     <file>
       <name>$PROJ_DIR$\adc.c</name>
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 16</file>
+          <file> 12</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 26</file>
+          <file> 29</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 14 21 25 3</file>
+          <file> 11 20 28 31</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 14 21 25 3</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\main.c</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 7</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 9</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 21 25 3 24 11 1 10 19 20 4 18 12 14 8 28 32</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 21 25 3 24 11 1 10 19 20 4 18 12 14 8 28 32</file>
+          <file> 11 20 28 31</file>
         </tool>
       </inputs>
     </file>
@@ -104,30 +68,21 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 0</file>
+          <file> 3</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 17</file>
+          <file> 13</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 21 25 3 32</file>
+          <file> 20 28 31 9</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 21 25 3 32</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Exe\xxx.d43</name>
-      <inputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 27 16 30 7 0 6</file>
+          <file> 20 28 31 9</file>
         </tool>
       </inputs>
     </file>
@@ -136,21 +91,66 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 30</file>
+          <file> 7</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 31</file>
+          <file> 8</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 21 25 3 8</file>
+          <file> 20 28 31 0</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 21 25 3 8</file>
+          <file> 20 28 31 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 20 28 31 27 22 16 1 15 19 25 14 10 11 0 6 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 28 31 27 22 16 1 15 19 25 14 10 11 0 6 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\xxx.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 30 12 7 18 3 23</file>
         </tool>
       </inputs>
     </file>

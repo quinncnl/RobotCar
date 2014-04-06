@@ -1,10 +1,8 @@
 #include  <msp430g2553.h>
 #include "main.h"
 
-
 void wait(){ long i = 75000; while(i--); }
 void delay(long i) {while(i--);}
-
 
 void initTA(){
 	TA1CTL = TASSEL_2 + MC_1;

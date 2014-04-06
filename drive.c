@@ -1,7 +1,6 @@
 #include  <msp430g2553.h>
 #include  "utils.h"
 
-
 int front_sensor = 0;
 int left_line_sensor = 0;
 int right_line_sensor = 0;
@@ -23,7 +22,6 @@ void slowRightWheel(){ TA1CCR2 = 400; }
 void slow() { slowRightWheel(); slowLeftWheel(); }
 void stop(){ stopLeftWheel(); stopRightWheel(); }
 
-
 void readLineSensor() {
 	left_line_sensor = read_adc(1);
 	right_line_sensor = read_adc(2);
@@ -41,7 +39,6 @@ int meetObstacle(){
 		return 0;
 }
 
-
 void fixStraigt(){
 	forwardWheel();
 	fullSpeed();
@@ -56,6 +53,7 @@ void forceTurnLeft(long d){
 	delay(d);
 	stop();
 }
+
 void turnLeft(){
 
 	backwardLeftWheel();
@@ -119,6 +117,7 @@ void determineValue(int v){
 	}
 }
 void determineLeftSensorValue(){
+	readLineSensor();
 	determineValue(left_line_sensor);
 }
 

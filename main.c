@@ -51,9 +51,12 @@ void main(void)
 	initTA();
  	initPins();
 
-    _BIS_SR(CPUOFF + GIE);
+	while(1){
+		determineLeftSensorValue();
+	}
 
-	while(1);
+	// If you want to detect left sensor value, comment out the line below.
+	_BIS_SR(CPUOFF + GIE);
 }
 
 void mainLoop(){
@@ -134,7 +137,7 @@ void mainLoop(){
 			path.posTurn--;
 
 			forwardWheel();
-			if (path.posTurn == 0)
+			if (path.posTurn == -1)
 				fullSpeed();
 			else 
 				slow();

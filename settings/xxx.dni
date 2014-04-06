@@ -36,13 +36,13 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=-233228319
+Checksum=-268230815
 [State Storage]
-Control Register=50428
+Control Register=0
 [Sequencer]
-Control Register=50428
-NextState0=50428
-NextState1=50428
+Control Register=0
+NextState0=0
+NextState1=0
 [Action Register]
 Break=2
 State Storage=1
@@ -67,7 +67,7 @@ Symbiont=0
 Exclusions=
 [Breakpoints]
 Bp0=_ "STD_CODE" "Memory:0xC00C" 0 0 0 0 "" 0 ""
-Bp1=_ "STD_CODE" "{$PROJ_DIR$\main.c}.146.1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\main.c}.149.1" 0 0 0 0 "" 0 ""
 Count=2
 [FET]
 Clock mode=38
